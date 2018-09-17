@@ -1,0 +1,25 @@
+{
+  "name": "festivalfilms",
+  "version": "1.0.0",
+  "description": "projet3 openclassrooms",
+  "main": "script.js",
+  "dependencies": {},
+  "devDependencies": {
+    "bootstrap": "^4.1.3",
+    "jquery": "^3.3.1",
+    "sass": "^1.13.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DesignGreg/Projet3-OpenClassRooms.git"
+  },
+  "author": "Gregory Huyghe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DesignGreg/Projet3-OpenClassRooms/issues"
+  },
+  "homepage": "https://github.com/DesignGreg/Projet3-OpenClassRooms#readme"
+}
