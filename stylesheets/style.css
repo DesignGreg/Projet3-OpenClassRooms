@@ -1,11 +1,102 @@
 @charset "UTF-8";
-.header--title {
-  font-size: 3rem;
+.main-content__post {
+  background-color: #1a1a1a;
   color: #f2f2f2;
+}
+
+.main-content__post--padding {
+  background-color: #f2f2f2;
+  color: #1a1a1a;
+  padding: 0 1rem;
+}
+
+.main-content--text {
+  background-color: #f2f2f2;
+  color: #1a1a1a;
+}
+
+.content__title {
+  background-color: #f2f2f2;
+  color: #1a1a1a;
+}
+
+.main-content__form {
+  background-color: #1a1a1a;
+  color: #f2f2f2;
+}
+
+.main-content__form--padding {
+  background-color: #f2f2f2;
+  color: #1a1a1a;
+}
+
+.main-content__list {
+  background-color: #1a1a1a;
+  color: #f2f2f2;
+}
+
+.main-content__list--padding {
+  background-color: #f2f2f2;
+  color: #1a1a1a;
+}
+
+.header__title {
+  font-size: 3.5rem;
+  color: #f2f2f2;
+}
+
+.footer__credits {
+  background-color: #1a1a1a;
+  color: #f2f2f2;
+}
+
+.footer__credits--padding {
+  background-color: #f2f2f2;
+  color: #1a1a1a;
+  padding: 0 1rem;
+}
+
+.footer_credits--text {
+  background-color: #f2f2f2;
+  color: #1a1a1a;
+}
+
+.footer__mentions--padding {
+  background-color: #f2f2f2;
+  color: #1a1a1a;
+  padding: 0 1rem;
+}
+
+.footer__mentions {
+  background-color: #1a1a1a;
+  color: #f2f2f2;
+}
+
+.navbar {
+  background-color: #f2f2f2;
+}
+
+.nav-link {
+  background-color: #f2f2f2;
+  font-size: 2rem;
+  color: #1a1a1a;
+}
+
+.nav-item {
+  padding-left: 1rem;
+  background-color: #f2f2f2;
+}
+
+.collapse {
+  background-color: #f2f2f2;
 }
 
 * {
   background-color: #1a1a1a;
+}
+
+.main-content {
+  padding: 1rem 0 1rem 0;
 }
 
 /*!

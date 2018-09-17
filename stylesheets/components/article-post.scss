@@ -1,26 +1,20 @@
-.footer__credits {
+.main-content__post {
     background-color: $main-background-color;
     color: $second-color;
 }
 
-.footer__credits--padding {
+.main-content__post--padding {
     background-color: $second-background-color;
     color: $main-color;
     padding: 0 1rem;
 }
 
-.footer_credits--text {
+.main-content--text {
     background-color: $second-background-color;
     color: $main-color;
 }
 
-.footer__mentions--padding {
+.content__title {
     background-color: $second-background-color;
     color: $main-color;
-    padding: 0 1rem;
-}
-
-.footer__mentions {
-    background-color: $main-background-color;
-    color: $second-color;
 }
