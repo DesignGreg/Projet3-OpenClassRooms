@@ -8,6 +8,7 @@
     <title>Festival Films de Plein Air</title>
     <!-- Bootstrap + Sass -->
     <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
 </head>
 
 <body>
@@ -15,13 +16,11 @@
 
     <!-- HEADER -->
 
-    <header class="header container-fluid" row>
-        <div class="col-lg-8">
+    <header class="header container-fluid row">
+        <div class="col-lg-12">
             <h1 class="header__title">Festival les Films de Plein Air</h1>
         </div>
-        <div class="col-lg-4">
 
-        </div>
     </header>
 
 
@@ -32,25 +31,35 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Accueil</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="films.html">Films</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="actu.html">Actu</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                </ul>
+            <div class="nav-links__row container-fluid row">
+                <div class="nav-links__list col-lg-6">
+                    <div class="nav-links__list--2 collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="index.html">Accueil</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="films.html">Films</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="actu.html">Actu</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="nav-links__social offset-lg-3 col-lg-3">
+                    <div class="nav-links__social--2">
+                        <a href="http://www.facebook.com"><i class="fab fa-facebook"></i></a>
+                        <a href="http://www.twitter.com"><i class="fab fa-twitter"></i></a>
+                        <a href="http://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
             </div>
         </div>
     </nav>
-
 
     <!-- MAIN -->
 
@@ -98,12 +107,12 @@
     <footer class="footer container-fluid row">
         <div class="footer__credits col-lg-2 offset-lg-3">
             <div class="footer__credits--padding">
-                <p class="footer_credits--text">Site réalisé par Grégory Huyghe</p>
+                <p class="footer__credits--text">Site réalisé par Grégory Huyghe</p>
             </div>
         </div>
         <div class="footer__mentions col-lg-2 offset-lg-2">
             <div class="footer__mentions--padding">
-                <a class="nav-link" href="mentions.html">Mentions légales</a>
+                <a class="footer__mentions--link" href="mentions.html">Mentions légales</a>
             </div>
         </div>
 

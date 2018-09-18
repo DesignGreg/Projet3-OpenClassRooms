@@ -2,6 +2,23 @@
     background-color: $main-background-color;
 }
 
+.row {
+    margin-left: 0 !important;
+}
+
 .main-content {
     padding: 1rem 0 1rem 0;
+
+    &__post {
+        padding: 1rem 0 1rem 0;
+    }
+
+    &__form {
+        padding: 1rem 0 1rem 0;
+    }
+
+    &__list {
+        padding: 1rem 0 1rem 0;
+    }
+
 }

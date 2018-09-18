@@ -1,26 +1,32 @@
 .footer__credits {
     background-color: $main-background-color;
     color: $second-color;
-}
 
-.footer__credits--padding {
-    background-color: $second-background-color;
-    color: $main-color;
-    padding: 0 1rem;
-}
+    &--padding {
+        background-color: $second-background-color;
+        color: $main-color;
+        padding: 0 1rem;
+    }
 
-.footer_credits--text {
-    background-color: $second-background-color;
-    color: $main-color;
-}
-
-.footer__mentions--padding {
-    background-color: $second-background-color;
-    color: $main-color;
-    padding: 0 1rem;
+    &--text {
+        background-color: $second-background-color;
+        color: $main-color;
+    }
 }
 
 .footer__mentions {
     background-color: $main-background-color;
     color: $second-color;
+
+
+    &--padding {
+        background-color: $second-background-color;
+        color: $main-color;
+        padding: 0 1rem;
+    }
+
+    &--link {
+        background-color: $second-background-color;
+        color: $main-color;
+    }
 }

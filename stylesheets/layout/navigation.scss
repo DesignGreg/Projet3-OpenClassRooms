@@ -1,5 +1,41 @@
+// Media Queries
+@media (min-width: 960px) {
+    .nav-item {
+        padding-left: 2rem;
+        padding-right: 6rem;
+    }
+}
+
+// Standard rules
 .navbar {
     background-color: $second-background-color;
+
+    &-nav {
+        position: relative;
+        left: 3rem;
+    }
+}
+
+.nav-links {
+    &__row {
+        background-color: $second-background-color;
+        color: $main-color;
+    }
+
+    &__list {
+        background-color: $second-background-color;
+        color: $main-color;
+    }
+
+    &__social {
+        background-color: $second-background-color;
+        color: $main-color;
+    }
+
+    &__social--2 {
+        background-color: $second-background-color;
+        color: $main-color;
+    }
 }
 
 .nav-link {
@@ -9,7 +45,6 @@
 }
 
 .nav-item {
-    padding-left: 1rem;
     background-color: $second-background-color;
 }
 
@@ -17,3 +52,10 @@
     background-color: $second-background-color;
 }
 
+i {
+    background-color: $second-background-color;
+    color: $main-color;
+    font-size: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}

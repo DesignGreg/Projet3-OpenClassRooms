@@ -1,17 +1,19 @@
 .main-content__post {
     background-color: $main-background-color;
     color: $second-color;
-}
 
-.main-content__post--padding {
-    background-color: $second-background-color;
-    color: $main-color;
-    padding: 0 1rem;
+
+    &--padding {
+        background-color: $second-background-color;
+        color: $main-color;
+        padding: 2rem 6rem;
+    }
 }
 
 .main-content--text {
     background-color: $second-background-color;
     color: $main-color;
+    padding-top: 1rem;
 }
 
 .content__title {
