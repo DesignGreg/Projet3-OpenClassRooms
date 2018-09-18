@@ -1,9 +1,40 @@
 .main-content__form {
-    background-color: $main-background-color;
-    color: $second-color;
-}
-
-.main-content__form--padding {
     background-color: $second-background-color;
-    color: $main-color;
+    color: $second-color;
+
+    &--padding {
+        background-color: $second-background-color;
+        color: $main-color;
+        
+        label {
+            background-color: $second-background-color;
+            color: $main-color;
+            margin-top: 1.5rem;
+        }
+        
+         form {
+            padding-bottom: 1rem;
+            background-color: $second-background-color;
+            color: $second-color;
+        }
+    }
+    
+.main-content__form--text {
+        background-color: $second-background-color;
+        color: $main-color;
+    }
+
+    &--input {
+        background-color: $second-background-color;
+        color: $main-color;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 0.5rem;
+        width: 80%;
+
+        > option {
+            background-color: $second-background-color;
+            color: $main-color;
+        }
+    }
 }
