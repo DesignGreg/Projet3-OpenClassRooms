@@ -1,3 +1,10 @@
+// Media Queries
+@media (min-width: 960px) {
+    .footer__mentions--padding {
+        margin-right: 1rem;
+    }
+}
+
 .footer__credits {
     background-color: $main-background-color;
     color: $second-color;
