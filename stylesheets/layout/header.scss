@@ -1,8 +1,8 @@
 // Media Queries
 @media (min-width: 960px) {
     .header__title {
-        padding: 1rem 0 1rem 0;
-        //margin-left: 5rem;
+        padding: 1rem 0;
+        //margin-left: 2rem;
     }
 }
 
@@ -13,13 +13,15 @@
     &-text {
     font-size: $big-font;
     color: $second-color;
+    text-align: center;
+    padding-right: 0.3rem;
     }
 }
 
 .header__social {
     display: flex;
     align-items: flex-end;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
 }
 
 i {

@@ -4,6 +4,11 @@
         padding-left: 0rem;
         padding-right: 2rem;
     }
+    
+    .nav-links__list--radius {
+    margin-right: 2rem;
+    margin-left: 2rem;
+    }
 }
 
 // Standard rules
@@ -16,8 +21,9 @@
     }
 }
 
-.essai {
+.nav-links__list--radius {
     border-radius: 10%;
+    background-color: $second-background-color;
 }
 
 .nav-links {
@@ -60,6 +66,16 @@
     background-color: $second-background-color;
 }
 
-.collapse {
-    background-color: $second-background-color;
+.navbar-toggler {
+    background-color: $main-background-color;
+    color: $second-color;
+}
+
+.navbar-toggler-icon {
+    background-color: $main-background-color;
+    color: $second-color;
+}
+
+.navbar-toggler-icon--i {
+    color: $second-color;
 }

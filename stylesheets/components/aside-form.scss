@@ -1,5 +1,10 @@
 // Media Queries
 @media (min-width: 960px) {
+
+    .main-content__form--padding {
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
     
     .main-content__form--padding label {
         margin-top: 1.5rem;
@@ -8,31 +13,31 @@
     }
     .main-content__form--padding form {
         padding-bottom: 1rem;
-        
+
         input[type="submit"] {
             margin-top: 1rem;
         }
     }
-    
+
     .main-content__form--input {
         margin: 0 auto;
         margin-bottom: 0.5rem;
     }
-    
+
     .main-content__form--text {
         padding-left: 3rem;
         width: 90%;
     }
-   
+
 }
 
 .main-content__form {
     background-color: $main-background-color;
     color: $second-color;
-    
+
     &--link {
         color: $link-color;
-        
+
         &:hover {
             color: $link-hover-shadow-color;
             text-decoration: none;
@@ -44,31 +49,31 @@
         background-color: $second-background-color;
         color: $main-color;
         border-radius: 2%;
-        
+
         label {
             background-color: $second-background-color;
             color: $main-color;
         }
-        
+
         input:focus {
             outline: 1px solid $main-color;
         }
-        
+
         select:focus {
             outline: 1px solid $main-color;
         }
-        
-         form {
+
+        form {
             background-color: $second-background-color;
             color: $second-color;
             border-radius: 2%;
-             
-             input[type="submit"] {
-                 background-color: $main-background-color;
-                 color: #f2f2f2;
-                 border-radius: 20%;
-                 width: 30%;
-             }
+
+            input[type="submit"] {
+                background-color: $main-background-color;
+                color: #f2f2f2;
+                border-radius: 20%;
+                width: 30%;
+            }
         }
     }
 
@@ -91,6 +96,12 @@
 }
 
 .main-content__form--text {
+    background-color: $second-background-color;
+    padding-bottom: 0.5rem;
+    border-radius: 20%;
+    
+     p {
         background-color: $second-background-color;
         color: $main-color;
     }
+}
