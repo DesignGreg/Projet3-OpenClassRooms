@@ -8,9 +8,7 @@
 
 // Standard rules
 .navbar {
-    background-color: $second-background-color;
-    width: 70%;
-    margin: 0 auto;
+    background-color: $main-background-color;
 
     &-nav {
         position: relative;
@@ -20,7 +18,12 @@
 
 .nav-links {
     &__row {
-        background-color: $second-background-color;
+        background-color: $main-background-color;
+        color: $main-color;
+    }
+    
+    &__empty {
+        background-color: $main-background-color;
         color: $main-color;
     }
 
@@ -30,12 +33,12 @@
     }
 
     &__social {
-        background-color: $second-background-color;
+        background-color: $main-background-color;
         color: $main-color;
     }
 
     &__social--2 {
-        background-color: $second-background-color;
+        background-color: $main-background-color;
         color: $main-color;
     }
 }
@@ -63,7 +66,7 @@
 }
 
 i {
-    background-color: $second-background-color;
+    background-color: $main-background-color;
     color: $link-color;
     font-size: 2rem;
     padding-left: 1rem;

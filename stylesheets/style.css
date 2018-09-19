@@ -135,7 +135,6 @@
 .main-content__list--padding {
   background-color: #f2f2f2;
   color: #1a1a1a;
-  margin-left: -1rem;
 }
 
 .main-content__list {
@@ -223,9 +222,7 @@
   }
 }
 .navbar {
-  background-color: #f2f2f2;
-  width: 70%;
-  margin: 0 auto;
+  background-color: #1a1a1a;
 }
 .navbar-nav {
   position: relative;
@@ -233,7 +230,11 @@
 }
 
 .nav-links__row {
-  background-color: #f2f2f2;
+  background-color: #1a1a1a;
+  color: #1a1a1a;
+}
+.nav-links__empty {
+  background-color: #1a1a1a;
   color: #1a1a1a;
 }
 .nav-links__list {
@@ -241,11 +242,11 @@
   color: #1a1a1a;
 }
 .nav-links__social {
-  background-color: #f2f2f2;
+  background-color: #1a1a1a;
   color: #1a1a1a;
 }
 .nav-links__social--2 {
-  background-color: #f2f2f2;
+  background-color: #1a1a1a;
   color: #1a1a1a;
 }
 
@@ -270,7 +271,7 @@
 }
 
 i {
-  background-color: #f2f2f2;
+  background-color: #1a1a1a;
   color: #3F69AA;
   font-size: 2rem;
   padding-left: 1rem;
