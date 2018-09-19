@@ -1,4 +1,18 @@
+// Media Queries
+@media (min-width: 960px) {
+    .header__title {
+        width: 35%;
+        margin: 0 auto;
+        padding: 1rem 0 1rem 0;
+    }
+}
+
 .header__title {
+    font-size: $big-font;
+    color: $second-color;
+}
+
+.header__title-text {
     font-size: $big-font;
     color: $second-color;
 }

@@ -1,18 +1,20 @@
 // Media Queries
 @media (min-width: 960px) {
     .nav-item {
-        padding-left: 2rem;
-        padding-right: 6rem;
+        padding-left: 1rem;
+        padding-right: 4rem;
     }
 }
 
 // Standard rules
 .navbar {
     background-color: $second-background-color;
+    width: 70%;
+    margin: 0 auto;
 
     &-nav {
         position: relative;
-        left: 3rem;
+        left: 5rem;
     }
 }
 
@@ -42,6 +44,14 @@
     background-color: $second-background-color;
     font-size: $medium-font;
     color: $main-color;
+    
+    &:hover {
+        color: $link-hover-shadow-color;
+    }
+    
+    &:active {
+        font-weight: bold;
+    }
 }
 
 .nav-item {
@@ -54,8 +64,16 @@
 
 i {
     background-color: $second-background-color;
-    color: $main-color;
+    color: $link-color;
     font-size: 2rem;
     padding-left: 1rem;
     padding-right: 1rem;
+    
+    &:hover {
+        color: $link-hover-shadow-color;
+    }
+    
+    &:active {
+        font-size: 3rem;
+    }
 }

@@ -1,3 +1,28 @@
+// Media Queries
+@media (min-width: 960px) {
+    
+    .main-content__list--article {
+        width: 90%;
+        margin:  0 auto;
+    }
+    
+    .main-content__list--title {
+        padding: 1rem 0 0 2rem;
+        width: 90%;
+    }
+    
+    .main-content__list--text {
+        margin-top: 1.5rem;
+        padding-left: 3rem;
+        width: 90%;
+        
+        &:last-child {
+            padding-bottom: 1rem;
+        }
+    }
+}
+
+
 .main-content__list {
     background-color: $main-background-color;
     color: $second-color;
@@ -7,4 +32,29 @@
     background-color: $second-background-color;
     color: $main-color;
     margin-left: -1rem;
+}
+
+.main-content__list {
+    background-color: $main-background-color;
+    color: $second-color;
+    
+    &--article {
+        background-color: $second-background-color;
+        color: $main-color;
+        border-bottom: 1px solid black;
+        
+        &:last-child {
+            border-bottom: none;
+        }
+    }
+    
+    &--title {
+        background-color: $second-background-color;
+        color: $main-color;
+    }
+    
+    &--text {
+        background-color: $second-background-color;
+        color: $main-color;
+    }
 }

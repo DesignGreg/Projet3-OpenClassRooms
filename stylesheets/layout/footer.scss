@@ -13,6 +13,7 @@
         background-color: $second-background-color;
         color: $main-color;
         padding: 0 1rem;
+        text-align: center;
     }
 
     &--text {
@@ -29,10 +30,17 @@
         background-color: $second-background-color;
         color: $main-color;
         padding: 0 1rem;
+        text-align: center;
     }
 
     &--link {
         background-color: $second-background-color;
-        color: $main-color;
+        color: $link-color;
+        
+        &:hover {
+            color: $link-hover-shadow-color;
+            text-decoration: none;
+            font-weight: bold;
+        }
     }
 }

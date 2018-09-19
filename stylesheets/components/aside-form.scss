@@ -1,5 +1,6 @@
 // Media Queries
 @media (min-width: 960px) {
+    
     .main-content__form--padding label {
         margin-top: 1.5rem;
         padding-left: 3rem;
@@ -26,15 +27,16 @@
 }
 
 .main-content__form {
-    background-color: $second-background-color;
+    background-color: $main-background-color;
     color: $second-color;
     
     &--link {
         color: $link-color;
         
         &:hover {
-            text-shadow: 0px 1px 0px $link-hover-shadow-color;
+            color: $link-hover-shadow-color;
             text-decoration: none;
+            font-weight: bold;
         }
     }
 
