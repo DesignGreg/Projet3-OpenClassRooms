@@ -9,6 +9,7 @@
     <!-- Bootstrap + Sass -->
     <link rel="stylesheet" href="stylesheets/style.css">
     <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
 </head>
 
 <body>
@@ -16,15 +17,24 @@
 
     <!-- HEADER -->
 
-    <header class="header container-fluid row">
-        <div class="header__title">
-            <h1 class="header__title-text">Festival des Films de Plein Air</h1>
+    <header class="header container-fluid">
+        <div class="row">
+            <div class="col-lg-3"></div>
+            <div class=" header__title col-lg-6">
+                <h1 class="header__title-text">Festival des Films de Plein Air</h1>
+            </div>
+            <div class="header__social col-lg-3">
+                <a href="http://www.facebook.com"><i class="fab fa-facebook"></i></a>
+                <a href="http://www.twitter.com"><i class="fab fa-twitter"></i></a>
+                <a href="http://www.instagram.com"><i class="fab fa-instagram"></i></a>
+            </div>
         </div>
 
     </header>
 
 
     <!-- NAV -->
+
 
     <nav class="nav-links container-fluid">
         <div class="navbar navbar-expand-lg">
@@ -34,41 +44,34 @@
             <div class="nav-links__row container-fluid row">
                 <div class="nav-links__empty col-lg-3"></div>
                 <div class="nav-links__list col-lg-6">
-                    <div class="nav-links__list--2">
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav">
-                                <li class="nav-item active">
-                                    <a class="nav-link" href="index.html">Accueil</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="films.html">Films</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="actu.html">Actu</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="contact.html">Contact</a>
-                                </li>
-                            </ul>
-                        </div>
+                    <div class="essai collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="index.html">Accueil</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="films.html">Films</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="actu.html">Actu</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-                <div class="nav-links__social col-lg-3">
-                    <div class="nav-links__social--2">
-                        <a href="http://www.facebook.com"><i class="fab fa-facebook"></i></a>
-                        <a href="http://www.twitter.com"><i class="fab fa-twitter"></i></a>
-                        <a href="http://www.instagram.com"><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
+                <div class="nav-links__social col-lg-3"></div>
             </div>
         </div>
     </nav>
+
 
     <!-- MAIN -->
 
     <section class="main-content container-fluid row">
         <!-- Formulaire inscription aux films du festival -->
-        <aside class="main-content__form col-lg-3">
+        <aside class="main-content__form col-lg-3 animated fadeInLeft">
             <div class="main-content__form--padding">
                 <form action="" method="post">
                     <label for="prenom">Prénom</label>
@@ -98,30 +101,30 @@
         </aside>
 
         <!-- Contenu principal de chaque page -->
-        <article class="main-content__post col-lg-6 ">
+        <article class="main-content__post col-lg-6">
             <div class="main-content__post--padding">
-                <h2 class="content__title">Présentation du Festival</h2>
-                <p class="main-content--text">
+                <h2 class="main-content__title">Présentation du Festival</h2>
+                <p class="main-content__post--text">
                     L'association "Festival des Films de Plein Air" est fière de vous présenter ce festival qui se déroulera du 5 au 8 août, parc Monceay à Paris, et où seront projetés en plein air plusieurs films d'auteur.
                 </p>
-                <img class="img-fluid" src="images/pleinair.jpg" alt="Film en plein air">
-                <p class="main-content--text">
+                <img class="main-content__post--image img-fluid" src="images/pleinair.jpg" alt="Film en plein air">
+                <p class="main-content__post--text">
                     Ces projections auront lieu tous les soirs, de 18h à minuit.
                 </p>
-                <p class="main-content--text">
+                <p class="main-content__post--text">
                     Cette initiative est animée par la présidente de l'association, Jennifer Viala, et possible grâce au soutien de la mairie de Paris.
                 </p>
-                <p class="main-content--text">
+                <p class="main-content__post--text">
                     Pour découvrir la liste des films projetés pendant le festival, rendez-vous sur la page "films". Si vous venez, nous vous remercions de bien vouloir remplir le formulaire d'inscription sur votre gauche, qui nous permettra d'anticiper le nombre de participants.
                 </p>
-                <p class="main-content--text">
+                <p class="main-content__post--text">
                     Au plaisir de vous voir au parc Monceau entre les 5 et 8 août.
                 </p>
             </div>
         </article>
 
         <!-- Plugin affichant les derniers articles publiés -->
-        <aside class="main-content__list col-lg-3">
+        <aside class="main-content__list col-lg-3 animated fadeInRight">
             <div class="main-content__list--padding">
                 <div class="main-content__list--article">
                     <h3 class="main-content__list--title">Lancement du festival</h3>

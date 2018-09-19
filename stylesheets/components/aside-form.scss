@@ -23,7 +23,7 @@
         padding-left: 3rem;
         width: 90%;
     }
-    
+   
 }
 
 .main-content__form {
@@ -43,6 +43,7 @@
     &--padding {
         background-color: $second-background-color;
         color: $main-color;
+        border-radius: 2%;
         
         label {
             background-color: $second-background-color;
@@ -60,6 +61,7 @@
          form {
             background-color: $second-background-color;
             color: $second-color;
+            border-radius: 2%;
              
              input[type="submit"] {
                  background-color: $main-background-color;

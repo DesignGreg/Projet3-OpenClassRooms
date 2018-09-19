@@ -15,16 +15,21 @@
         color: $main-color;
         width: 90%;
         margin: 0 auto;
+        border-radius: 2%;
     }
-}
-
-.main-content--text {
+    
+    &--text {
     background-color: $second-background-color;
     color: $main-color;
     padding-top: 1rem;
+    }
+    
+    &--image {
+        border-radius: 5%;
+    }
 }
 
-.content__title {
+.main-content__title {
     background-color: $second-background-color;
     color: $main-color;
 }

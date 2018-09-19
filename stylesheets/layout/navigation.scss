@@ -1,8 +1,8 @@
 // Media Queries
 @media (min-width: 960px) {
     .nav-item {
-        padding-left: 1rem;
-        padding-right: 4rem;
+        padding-left: 0rem;
+        padding-right: 2rem;
     }
 }
 
@@ -16,30 +16,29 @@
     }
 }
 
+.essai {
+    border-radius: 10%;
+}
+
 .nav-links {
     &__row {
         background-color: $main-background-color;
-        color: $main-color;
     }
     
     &__empty {
         background-color: $main-background-color;
-        color: $main-color;
     }
 
     &__list {
-        background-color: $second-background-color;
-        color: $main-color;
+        background-color: $main-background-color;
     }
 
     &__social {
         background-color: $main-background-color;
-        color: $main-color;
     }
 
     &__social--2 {
         background-color: $main-background-color;
-        color: $main-color;
     }
 }
 
@@ -63,20 +62,4 @@
 
 .collapse {
     background-color: $second-background-color;
-}
-
-i {
-    background-color: $main-background-color;
-    color: $link-color;
-    font-size: 2rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    
-    &:hover {
-        color: $link-hover-shadow-color;
-    }
-    
-    &:active {
-        font-size: 3rem;
-    }
 }

@@ -1,18 +1,39 @@
 // Media Queries
 @media (min-width: 960px) {
     .header__title {
-        width: 35%;
-        margin: 0 auto;
         padding: 1rem 0 1rem 0;
+        //margin-left: 5rem;
     }
 }
 
 .header__title {
     font-size: $big-font;
     color: $second-color;
-}
-
-.header__title-text {
+    
+    &-text {
     font-size: $big-font;
     color: $second-color;
+    }
+}
+
+.header__social {
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 1rem;
+}
+
+i {
+    background-color: $main-background-color;
+    color: $link-color;
+    font-size: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+    &:hover {
+        color: $link-hover-shadow-color;
+    }
+    
+    &:active {
+        font-size: 3rem;
+    }
 }

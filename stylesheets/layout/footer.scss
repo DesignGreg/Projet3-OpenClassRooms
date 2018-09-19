@@ -14,11 +14,13 @@
         color: $main-color;
         padding: 0 1rem;
         text-align: center;
+        border-radius: 20%;
     }
 
     &--text {
         background-color: $second-background-color;
         color: $main-color;
+        border-radius: 20%;
     }
 }
 
@@ -31,11 +33,13 @@
         color: $main-color;
         padding: 0 1rem;
         text-align: center;
+        border-radius: 20%;
     }
 
     &--link {
         background-color: $second-background-color;
         color: $link-color;
+        border-radius: 20%;
         
         &:hover {
             color: $link-hover-shadow-color;

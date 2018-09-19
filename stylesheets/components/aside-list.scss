@@ -1,6 +1,10 @@
 // Media Queries
 @media (min-width: 960px) {
     
+    .main-content__list--padding {
+        margin-right: 1rem;
+    }
+    
     .main-content__list--article {
         width: 90%;
         margin:  0 auto;
@@ -31,6 +35,7 @@
 .main-content__list--padding  {
     background-color: $second-background-color;
     color: $main-color;
+    border-radius: 2%;
 }
 
 .main-content__list {
