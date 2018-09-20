@@ -1,5 +1,84 @@
 // Media Queries
-@media (min-width: 960px) {
+@media screen and (min-width: 1px) and (max-width: 575px) {
+    
+    .main-content__post--padding {
+        padding: 2rem 3rem 0.5rem 3rem;
+    }
+    
+    .main-content__post--title {
+        font-size: $medium-font;
+    }
+    
+    .main-content__post--text {
+        font-size: $standard-less-font;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    
+    .main-content__post--padding {
+        padding: 2rem 4rem 0.5rem 4rem;
+    }
+    
+    .main-content__post--title {
+        font-size: $medium-font;
+    }
+    
+    .main-content__post--text {
+        font-size: $standard-less-font;
+    }
+
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    
+    .main-content__post--padding {
+        padding: 2rem 4rem 0.5rem 4rem;
+    }
+    
+    .main-content__post--title {
+        font-size: $medium-font;
+    }
+    
+    .main-content__post--text {
+        font-size: $standard-less-font;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    
+    .main-content__post--padding {
+        padding: 2rem 4rem 0.5rem 4rem;
+    }
+    
+    .main-content__post--title {
+        font-size: $medium-font;
+    }
+    
+    .main-content__post--text {
+        font-size: $standard-less-font;
+    }
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    
+    .main-content__post--padding {
+        padding: 2rem 4rem 0.5rem 4rem;
+    }
+    
+    .main-content__post--title {
+        font-size: $medium-font;
+    }
+    
+    .main-content__post--text {
+        font-size: $standard-less-font;
+    }
+}
+
+@media screen and (min-width: 1200px) {
     
     .main-content__post--padding {
         padding: 2rem 6rem 0.5rem 6rem;
@@ -18,6 +97,11 @@
         border-radius: 2%;
     }
     
+    &--title {
+        background-color: $second-background-color;
+        color: $main-color;
+    }
+    
     &--text {
     background-color: $second-background-color;
     color: $main-color;
@@ -27,9 +111,4 @@
     &--image {
         border-radius: 5%;
     }
-}
-
-.main-content__title {
-    background-color: $second-background-color;
-    color: $main-color;
 }

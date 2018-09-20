@@ -1,7 +1,39 @@
 // Media Queries
-@media (min-width: 960px) {
-    .footer__mentions--padding {
-        margin-right: 1rem;
+@media screen and (min-width: 1px) and (max-width: 575px) {  
+    .footer--width {
+        width: 40%;
+        position: relative;
+        left: 8rem;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {  
+    .footer--width {
+        width: 40%;
+        position: relative;
+        left: 10rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {  
+    .footer--width {
+        width: 70%;
+        position: relative;
+        left: 4rem;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {  
+    .footer--width {
+        width: 100%;
+        margin: 0 auto !important;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .footer--width {
+        width: 100%;
+        margin: 0 auto !important;
     }
 }
 

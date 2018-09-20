@@ -1,41 +1,32 @@
 // Media Queries
-@media (min-width: 960px) {
+@media screen and (min-width: 1px) and (max-width: 598px) {
     .header__title {
         padding: 1rem 0;
-        //margin-left: 2rem;
+        
+        &-text {
+            font-size: $medium-plus-font !important;
+        }
+    }
+}
+
+@media screen and (min-width: 599px) and (max-width: 767px) {
+    .header__title {
+        padding: 1rem 0;
+        
+        &-text {
+            font-size: $big-less-font !important;
+        }
     }
 }
 
 .header__title {
-    font-size: $big-font;
     color: $second-color;
+    padding: 1rem 0;
     
     &-text {
-    font-size: $big-font;
     color: $second-color;
     text-align: center;
     padding-right: 0.3rem;
-    }
-}
-
-.header__social {
-    display: flex;
-    align-items: flex-end;
-    padding-bottom: 2rem;
-}
-
-i {
-    background-color: $main-background-color;
-    color: $link-color;
-    font-size: 2rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    
-    &:hover {
-        color: $link-hover-shadow-color;
-    }
-    
-    &:active {
-        font-size: 3rem;
+    font-size: $big-font;
     }
 }
