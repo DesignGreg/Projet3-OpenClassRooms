@@ -4,20 +4,13 @@
 @import "abstracts/mixins";
 @import "abstracts/variables";
 
-@import "base/base";
-@import "base/animations";
-@import "base/typography";
-@import "base/utilities";
-
 @import "components/article-post";
 @import "components/aside-form";
 @import "components/aside-list";
+@import "components/header";
+@import "components/footer";
+@import "components/navigation";
 
-@import "layout/header";
-@import "layout/footer";
-@import "layout/navigation";
+@import "layout/responsive";
 
-@import "pages/home";
-
-// Bootstrap, allez voir fichier source pour choisir les Import
-@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "pages/global";

@@ -1,9 +1,9 @@
 // Media Queries
-@media screen and (min-width: 768px) and (max-width: 991px) {
+@media screen and (min-width: 1px) and (max-width: 991px) {
 
     // Collapsed menu
     .nav-links__button {
-        margin-left: 2rem;
+        margin-left: 0.5rem;
     }
     .navbar-toggler:focus,
     .navbar-toggler:active {
@@ -15,15 +15,18 @@
        background-color: $main-background-color !important; 
     }
     
+    .nav-link {
+    background-color: $main-background-color !important;
+    color: $second-color !important;
+    }
+    
     .nav-link--collapsed {
         background-color: $main-background-color !important;
         color: $second-color !important;
         padding-left: 3rem !important;
         
         &:hover {
-        text-decoration: underline !important;
-        text-decoration-color: $second-color !important;
-        text-decoration-style: solid !important;
+        color: $link-hover-shadow-color !important;
     }
 
         &:active {
@@ -31,10 +34,11 @@
         }
     }
     
-//    .navbar-expand-lg {
-//        display: inline-block !important;
-//    }
-
+    .nav-links__social--i {
+    font-size: $medium-less-font !important;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    }
 }
 
 
@@ -43,7 +47,7 @@
 @media screen and (min-width: 992px) and (max-width: 1199px) {
     .nav-item {
         padding-left: 0rem;
-        padding-right: 1.5rem;
+        padding-right: 1rem;
     }
 
     .nav-link {
@@ -102,6 +106,7 @@
 
     &__list {
         background-color: $main-background-color;
+        padding-right: 2rem;
     }
 
     &__social {
@@ -116,9 +121,6 @@
 
     &:hover {
         color: $link-hover-shadow-color;
-        text-decoration: underline !important;
-        text-decoration-color: $link-hover-shadow-color !important;
-        text-decoration-style: solid !important;
     }
 
     &:active {
@@ -145,7 +147,7 @@
 }
 
 // Social Icons
-i {
+.nav-links__social--i {
     background-color: $main-background-color;
     color: $link-color;
     font-size: $medium-font;

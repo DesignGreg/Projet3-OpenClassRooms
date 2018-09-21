@@ -3,7 +3,7 @@
     .header__title {
         padding: 1rem 0;
         
-        &-text {
+        &--text {
             font-size: $medium-plus-font !important;
         }
     }
@@ -13,7 +13,7 @@
     .header__title {
         padding: 1rem 0;
         
-        &-text {
+        &--text {
             font-size: $big-less-font !important;
         }
     }
@@ -23,10 +23,14 @@
     color: $second-color;
     padding: 1rem 0;
     
-    &-text {
+    &--text {
     color: $second-color;
     text-align: center;
     padding-right: 0.3rem;
     font-size: $big-font;
     }
+}
+
+.header__title--i {
+    padding-right: 1rem;
 }

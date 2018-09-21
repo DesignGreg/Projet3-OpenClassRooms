@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale-1, shrink-to-fit=no">
     <title>Festival Films de Plein Air</title>
     <!-- Bootstrap + Sass -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="stylesheets/style.css">
     <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
     <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
@@ -27,7 +28,7 @@
         <div class="row">
             <div class="col-lg-1"></div>
             <div class=" header__title col-lg-10">
-                <h1 class="header__title-text">Festival des Films de Plein Air</h1>
+                <h1 class="header__title--text"><i class="header__title--i fas fa-film"></i>Festival des Films de Plein Air</h1>
             </div>
             <div class="col-lg-1"></div>
         </div>
@@ -64,9 +65,9 @@
                     </div>
                 </div>
                 <div class="nav-links__social col-lg-3">
-                    <a href="http://www.facebook.com"><i class="fab fa-facebook"></i></a>
-                    <a href="http://www.twitter.com"><i class="fab fa-twitter"></i></a>
-                    <a href="http://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                    <a href="http://www.facebook.com"><i class="nav-links__social--i fab fa-facebook"></i></a>
+                    <a href="http://www.twitter.com"><i class="nav-links__social--i fab fa-twitter"></i></a>
+                    <a href="http://www.instagram.com"><i class="nav-links__social--i fab fa-instagram"></i></a>
                 </div>
             </div>
         </div>
@@ -87,6 +88,26 @@
                     <input class="main-content__form--input" id="nom" type="text" name="Nom" required>
                     <label for="email">Email</label>
                     <input class="main-content__form--input" id="email" type="email" name="Adresse mail" required>
+                        <fieldset class="main-content__form--checkbox">
+                            <legend class="main-content__form--legend">Sélection des films</legend>
+                                <input type="checkbox" id="laHaine" name="films" value="La Haine">
+                                <label for="laHaine">La Haine</label>
+                                <input type="checkbox" id="odyssee" name="films" value="l'Odyssée de l'espace">
+                                <label for="odyssee">l'Odyssée de l'espace</label>
+                                <input type="checkbox" id="requiem" name="films" value="Requiem for a dream">
+                                <label for="requiem">Requiem for a dream</label>
+                                <input type="checkbox" id="mulholland" name="films" value="Mulholland Drive">
+                                <label for="mulholland">Mulholland Drive</label>
+                                <input type="checkbox" id="Carnage" name="films" value="Carnage">
+                                <label for="Carnage">Carnage</label>
+                                <input type="checkbox" id="under" name="films" value="Under the skin">
+                                <label for="under">Under the skin</label>
+                                <input type="checkbox" id="edward" name="films" value="Edward aux mains d'argent">
+                                <label for="edward">Edward aux mains d'argent</label>
+                                <input type="checkbox" id="lost" name="films" value="Lost in translation">
+                                <label for="lost">Lost in translation</label>
+                        </fieldset>
+<!--
                     <label for="films">Sélection des films, maintenez la touche Ctrl enfoncée pour en sélectionner plusieurs</label>
                     <select class="main-content__form--input" name="films" id="films" size="4" multiple required>
                         <option value="lahaine">La Haine</option>
@@ -98,6 +119,7 @@
                         <option value="edwardmainsdargent">Edward aux mains d'argent</option>
                         <option value="lostintranslation">Lost in translation</option>
                     </select>
+-->
                     <input class="main-content__form--input" type="submit" value="S'inscrire">
                 </form>
                 <div class="main-content__form--text">
