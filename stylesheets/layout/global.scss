@@ -6,7 +6,7 @@
 }
 
 // Pour toutes les pages
-* {
+body {
     background-color: $main-background-color;
 }
 
@@ -19,6 +19,10 @@
     padding: 1rem 0 1rem 0;
     
     &__post {
+        margin: 1rem 0 1rem 0;
+    }
+    
+    &__contact {
         margin: 1rem 0 1rem 0;
     }
 

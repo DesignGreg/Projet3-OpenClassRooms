@@ -1,18 +1,18 @@
 // Media Queries
 @media screen and (min-width: 1px) and (max-width: 575px) {
 
-    .main-content__form--padding {
+    .main-content__contact--padding {
         margin-right: 2rem;
         margin-left: 2rem;
     }
 
-    .main-content__form--padding label {
+    .main-content__contact--padding label {
         margin-top: 1.5rem;
         padding-left: 3rem;
         width: 90%;
         font-size: $standard-less-font;
     }
-    .main-content__form--padding form {
+    .main-content__contact--padding form {
         padding-bottom: 1rem;
         width: 90%;
         margin: 0 auto;
@@ -23,18 +23,18 @@
         }
     }
 
-    .main-content__form--input {
+    .main-content__contact--input {
         margin: 0 auto;
         margin-bottom: 0.5rem;
         font-size: $standard-less-font;
     }
 
-    .main-content__form--text {
+    .main-content__contact--text {
         padding-left: 3rem;
         width: 90%;
         font-size: $standard-less-font;
     }
-    .main-content__form--legend {
+    .main-content__contact--legend {
         margin: 0 auto;
         margin-bottom: 0.5rem;
         font-size: $standard-font;
@@ -43,18 +43,18 @@
 
 @media screen and (min-width: 576px) and (max-width: 767px) {
 
-    .main-content__form--padding {
+    .main-content__contact--padding {
         margin-right: 2rem;
         margin-left: 2rem;
     }
 
-    .main-content__form--padding label {
+    .main-content__contact--padding label {
         margin-top: 1.5rem;
         padding-left: 4rem;
         width: 90%;
         font-size: $standard-less-font;
     }
-    .main-content__form--padding form {
+    .main-content__contact--padding form {
         padding-bottom: 1rem;
         width: 70%;
         margin: 0 auto;
@@ -65,18 +65,18 @@
         }
     }
 
-    .main-content__form--input {
+    .main-content__contact--input {
         margin: 0 auto;
         margin-bottom: 0.5rem;
         font-size: $standard-less-font;
     }
 
-    .main-content__form--text {
+    .main-content__contact--text {
         padding-left: 3rem;
         width: 90%;
         font-size: $standard-less-font;
     }
-    .main-content__form--legend {
+    .main-content__contact--legend {
         margin: 0 auto;
         margin-bottom: 0.5rem;
         font-size: $standard-font;
@@ -85,18 +85,18 @@
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
 
-    .main-content__form--padding {
+    .main-content__contact--padding {
         margin-right: 3rem;
         margin-left: 3rem;
     }
 
-    .main-content__form--padding label {
+    .main-content__contact--padding label {
         margin-top: 1.5rem;
         padding-left: 4rem;
         width: 90%;
         font-size: $standard-font;
     }
-    .main-content__form--padding form {
+    .main-content__contact--padding form {
         padding-bottom: 1rem;
         width: 70%;
         margin: 0 auto;
@@ -107,19 +107,19 @@
         }
     }
 
-    .main-content__form--input {
+    .main-content__contact--input {
         margin: 0 auto;
         margin-bottom: 0.5rem;
         font-size: $standard-less-font;
     }
 
-    .main-content__form--text {
+    .main-content__contact--text {
         padding-left: 3rem;
         width: 90%;
         font-size: $standard-less-font;
     }
 
-    .main-content__form--legend {
+    .main-content__contact--legend {
         margin: 0 auto;
         margin-bottom: 0.5rem;
         font-size: $standard-font;
@@ -128,18 +128,18 @@
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
 
-    .main-content__form--padding {
+    .main-content__contact--padding {
         margin-right: 0rem;
         margin-left: 1rem;
     }
 
-    .main-content__form--padding label {
+    .main-content__contact--padding label {
         margin-top: 1.5rem;
         padding-left: 3rem;
         width: 90%;
         font-size: $standard-font;
     }
-    .main-content__form--padding form {
+    .main-content__contact--padding form {
         padding-bottom: 1rem;
 
         input[type="submit"] {
@@ -148,19 +148,19 @@
         }
     }
 
-    .main-content__form--input {
+    .main-content__contact--input {
         margin: 0 auto;
         margin-bottom: 0.5rem;
         font-size: $standard-less-font;
     }
 
-    .main-content__form--text {
+    .main-content__contact--text {
         padding-left: 3rem;
         width: 90%;
         font-size: $standard-less-font;
     }
 
-    .main-content__form--legend {
+    .main-content__contact--legend {
         margin: 0 auto;
         margin-bottom: 0.5rem;
         font-size: $standard-font;
@@ -169,36 +169,36 @@
 
 @media screen and (min-width: 1200px) {
 
-    .main-content__form--padding {
+    .main-content__contact--padding {
         margin-right: 1rem;
         margin-left: 2rem;
     }
 
-    .main-content__form--padding label {
+    .main-content__contact--padding label {
         margin-top: 1rem;
         padding-left: 3rem;
         width: 90%;
     }
-    .main-content__form--padding form {
+    .main-content__contact--padding form {
         padding-bottom: 1rem;
 
         input[type="submit"] {
             margin-top: 1rem;
-            width: 30%;
+            width: 20%;
         }
     }
 
-    .main-content__form--input {
+    .main-content__contact--input {
         margin: 0 auto;
         margin-bottom: 0.5rem;
     }
 
-    .main-content__form--text {
+    .main-content__contact--text {
         padding-left: 3rem;
         width: 90%;
     }
 
-    .main-content__form--legend {
+    .main-content__contact--legend {
         font-size: $medium-less-font;
     }
 }
@@ -206,7 +206,7 @@
 // Media Queries Checkbox
 @media screen and (min-width: 1px) and (max-width: 446px) {
 
-    .main-content__form--checkbox {
+    .main-content__contact--checkbox {
         padding: 0 2rem 1rem 2rem;
 
         label {
@@ -217,7 +217,7 @@
 
 @media screen and (min-width: 447px) and (max-width: 575px) {
 
-    .main-content__form--checkbox {
+    .main-content__contact--checkbox {
         padding: 0 4rem 1rem 4rem;
 
         label {
@@ -228,7 +228,7 @@
 
 @media screen and (min-width: 576px) and (max-width: 767px) {
 
-    .main-content__form--checkbox {
+    .main-content__contact--checkbox {
         padding: 0 4rem 1rem 4rem;
 
         label {
@@ -239,7 +239,7 @@
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
 
-    .main-content__form--checkbox {
+    .main-content__contact--checkbox {
         padding: 0 8rem 1rem 8rem;
 
         label {
@@ -250,7 +250,7 @@
 
 @media screen and (min-width: 992px) and (max-width: 1251px) {
 
-    .main-content__form--checkbox {
+    .main-content__contact--checkbox {
         padding: 0 1rem 1rem 1rem;
 
         label {
@@ -262,7 +262,7 @@
 
 @media screen and (min-width: 1252px) and (max-width: 1379px) {
 
-    .main-content__form--checkbox {
+    .main-content__contact--checkbox {
         padding: 0 2rem 1rem 2rem;
 
     }
@@ -271,25 +271,15 @@
 
 @media screen and (min-width: 1380px) {
 
-    .main-content__form--checkbox {
+    .main-content__contact--checkbox {
         padding: 0 3rem 1rem 3rem;
 
     }
 }
 
-.main-content__form {
+.main-content__contact {
     background-color: $main-background-color;
     color: $second-color;
-
-    &--link {
-        color: $link-color;
-
-        &:hover {
-            color: $link-hover-shadow-color;
-            text-decoration: none;
-            font-weight: bold;
-        }
-    }
 
     &--text {
         background-color: $second-background-color;
@@ -317,6 +307,20 @@
     &--legend {
         background-color: $second-background-color;
         color: $main-color;
+    }
+    
+    &--textarea {
+        resize: none;
+    }
+
+    &--link {
+        color: $link-color;
+
+        &:hover {
+            color: $link-hover-shadow-color;
+            text-decoration: none;
+            font-weight: bold;
+        }
     }
 
     &--padding {

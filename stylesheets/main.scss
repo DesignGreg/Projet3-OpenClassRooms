@@ -4,13 +4,12 @@
 @import "abstracts/mixins";
 @import "abstracts/variables";
 
-@import "components/article-post";
+@import "components/article-home";
+@import "components/article-contact";
 @import "components/aside-form";
 @import "components/aside-list";
 @import "components/header";
 @import "components/footer";
 @import "components/navigation";
 
-@import "layout/responsive";
-
-@import "pages/global";
+@import "layout/global";
