@@ -1,15 +1,15 @@
 // Media Queries
 @media screen and (min-width: 1px) and (max-width: 575px) {
     
-    .main-content__home--padding {
+    .main-content__films--padding {
         padding: 2rem 3rem 0.5rem 3rem;
     }
     
-    .main-content__home--title {
+    .main-content__films--title {
         font-size: $medium-font;
     }
     
-    .main-content__home--text {
+    .main-content__films--text {
         font-size: $standard-less-font;
     }
 
@@ -17,15 +17,15 @@
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
     
-    .main-content__home--padding {
+    .main-content__films--padding {
         padding: 2rem 4rem 0.5rem 4rem;
     }
     
-    .main-content__home--title {
+    .main-content__films--title {
         font-size: $medium-font;
     }
     
-    .main-content__home--text {
+    .main-content__films--text {
         font-size: $standard-less-font;
     }
 
@@ -33,15 +33,15 @@
 
 @media screen and (min-width: 576px) and (max-width: 767px) {
     
-    .main-content__home--padding {
+    .main-content__films--padding {
         padding: 2rem 4rem 0.5rem 4rem;
     }
     
-    .main-content__home--title {
+    .main-content__films--title {
         font-size: $medium-font;
     }
     
-    .main-content__home--text {
+    .main-content__films--text {
         font-size: $standard-less-font;
     }
 
@@ -49,15 +49,15 @@
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
     
-    .main-content__home--padding {
+    .main-content__films--padding {
         padding: 2rem 4rem 0.5rem 4rem;
     }
     
-    .main-content__home--title {
+    .main-content__films--title {
         font-size: $medium-font;
     }
     
-    .main-content__home--text {
+    .main-content__films--text {
         font-size: $standard-less-font;
     }
 
@@ -65,27 +65,27 @@
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
     
-    .main-content__home--padding {
+    .main-content__films--padding {
         padding: 2rem 4rem 0.5rem 4rem;
     }
     
-    .main-content__home--title {
+    .main-content__films--title {
         font-size: $medium-font;
     }
     
-    .main-content__home--text {
+    .main-content__films--text {
         font-size: $standard-less-font;
     }
 }
 
 @media screen and (min-width: 1200px) {
     
-    .main-content__home--padding {
+    .main-content__films--padding {
         padding: 2rem 6rem 0.5rem 6rem;
     }
 }
 
-.main-content__home {
+.main-content__films {
     background-color: $main-background-color;
     color: $second-color;
 
@@ -112,3 +112,6 @@
         border-radius: 5%;
     }
 }
+
+//CAROUSEL//
+

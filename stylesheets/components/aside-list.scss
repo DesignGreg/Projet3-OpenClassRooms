@@ -169,7 +169,7 @@
     &--article {
         background-color: $second-background-color;
         color: $main-color;
-        border-bottom: 1px solid black;
+        border-bottom: 1px solid $main-color;
         
         &:last-child {
             border-bottom: none;
