@@ -352,6 +352,12 @@
                     outline: none;
                     box-shadow: 1px 3px 1px $main-color;
                 }
+                
+                &:focus {
+                    border: none;
+                    outline: none;
+                    box-shadow: 1px 3px 1px $main-color;
+                }
             }
         }
     }

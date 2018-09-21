@@ -3,10 +3,7 @@
     
     .main-content__films--padding {
         padding: 2rem 3rem 0.5rem 3rem;
-    }
-    
-    .main-content__films--title {
-        font-size: $medium-font;
+        margin: 0 2rem 0 2rem;
     }
     
     .main-content__films--text {
@@ -19,10 +16,7 @@
     
     .main-content__films--padding {
         padding: 2rem 4rem 0.5rem 4rem;
-    }
-    
-    .main-content__films--title {
-        font-size: $medium-font;
+        margin: 0 2rem 0 2rem;
     }
     
     .main-content__films--text {
@@ -35,10 +29,7 @@
     
     .main-content__films--padding {
         padding: 2rem 4rem 0.5rem 4rem;
-    }
-    
-    .main-content__films--title {
-        font-size: $medium-font;
+        margin: 0 2rem 0 2rem;
     }
     
     .main-content__films--text {
@@ -51,10 +42,7 @@
     
     .main-content__films--padding {
         padding: 2rem 4rem 0.5rem 4rem;
-    }
-    
-    .main-content__films--title {
-        font-size: $medium-font;
+        margin: 0 3rem 0 3rem;
     }
     
     .main-content__films--text {
@@ -67,10 +55,6 @@
     
     .main-content__films--padding {
         padding: 2rem 4rem 0.5rem 4rem;
-    }
-    
-    .main-content__films--title {
-        font-size: $medium-font;
     }
     
     .main-content__films--text {
@@ -92,20 +76,13 @@
     &--padding {
         background-color: $second-background-color;
         color: $main-color;
-        width: 90%;
-        margin: 0 auto;
         border-radius: 2%;
-    }
-    
-    &--title {
-        background-color: $second-background-color;
-        color: $main-color;
     }
     
     &--text {
     background-color: $second-background-color;
     color: $main-color;
-    padding-top: 0.5rem;
+    padding-top: 1rem;
     }
     
     &--image {
@@ -114,4 +91,13 @@
 }
 
 //CAROUSEL//
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%233F69AA' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%233F69AA' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
 

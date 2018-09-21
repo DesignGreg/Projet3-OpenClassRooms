@@ -28,12 +28,19 @@
         width: 100%;
         margin: 0 auto !important;
     }
+    .footer__credits--padding {
+        margin-left: -1rem;
+    }
 }
 
 @media screen and (min-width: 1200px) {
     .footer--width {
         width: 100%;
         margin: 0 auto !important;
+    }
+    
+    .footer__credits--padding {
+        margin-left: -1rem;
     }
 }
 
