@@ -1,5 +1,13 @@
 // Media Queries
-@media screen and (min-width: 1px) and (max-width: 575px) {  
+@media screen and (min-width: 1px) and (max-width: 499px) {  
+    .footer--width {
+        width: 40%;
+        position: relative;
+        left: 6rem;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 575px) {  
     .footer--width {
         width: 40%;
         position: relative;

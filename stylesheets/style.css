@@ -702,8 +702,8 @@
 
 @media screen and (min-width: 1px) and (max-width: 575px) {
   .main-content__form--padding {
-    margin-right: 2rem;
-    margin-left: 2rem;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
   }
 
   .main-content__form--padding label {
@@ -784,8 +784,8 @@
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .main-content__form--padding {
-    margin-right: 3rem;
-    margin-left: 3rem;
+    margin-right: 2.5rem;
+    margin-left: 2.5rem;
   }
 
   .main-content__form--padding label {
@@ -1035,8 +1035,8 @@
 
 @media screen and (min-width: 1px) and (max-width: 575px) {
   .main-content__list--padding {
-    margin-right: 3rem;
-    margin-left: 3rem;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
   }
 
   .main-content__list--article {
@@ -1062,8 +1062,8 @@
 }
 @media screen and (min-width: 576px) and (max-width: 767px) {
   .main-content__list--padding {
-    margin-right: 3rem;
-    margin-left: 3rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
   }
 
   .main-content__list--article {
@@ -1089,8 +1089,8 @@
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .main-content__list--padding {
-    margin-right: 3rem;
-    margin-left: 3rem;
+    margin-right: 2.5rem;
+    margin-left: 2.5rem;
   }
 
   .main-content__list--article {
@@ -1229,7 +1229,14 @@
   padding-right: 1rem;
 }
 
-@media screen and (min-width: 1px) and (max-width: 575px) {
+@media screen and (min-width: 1px) and (max-width: 499px) {
+  .footer--width {
+    width: 40%;
+    position: relative;
+    left: 6rem;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 575px) {
   .footer--width {
     width: 40%;
     position: relative;
