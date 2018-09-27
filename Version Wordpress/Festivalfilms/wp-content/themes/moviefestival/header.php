@@ -7,7 +7,8 @@
 <!--<![endif]-->
 
 <head>
-    <meta charset="utf-8">
+    <meta charset="<?php bloginfo('charset'); ?>">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
 
@@ -18,8 +19,6 @@
 
     <meta name="description" content="">
     <meta name="author" content="">
-
-    <meta name="viewport" content="width=device-width">
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 
     <?php wp_head(); ?>
@@ -41,16 +40,16 @@
                     <div class="nav-links__list--radius collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav">
                             <li class="nav-item active">
-                                <a class="nav-link" href="#">Accueil</a>
+                                <a class="nav-link" href="<?php echo site_url('/accueil');?>">Accueil</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Films</a>
+                                <a class="nav-link" href="<?php echo site_url('/films');?>">Films</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Actu</a>
+                                <a class="nav-link" href="<?php echo site_url('/actu');?>">Actu</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contact</a>
+                                <a class="nav-link" href="<?php echo site_url('/contact');?>">Contact</a>
                             </li>
                         </ul>
                     </div>

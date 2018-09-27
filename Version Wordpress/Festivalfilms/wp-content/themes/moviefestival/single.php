@@ -1,6 +1,6 @@
 <?php get_header(); ?>
-
-<section class="main-content container-fluid row">
+  
+  <section class="main-content container-fluid row">
 
     <!-- Formulaire inscription aux films du festival -->
     <aside class="main-content__form col-lg-3 col-md-12 animated fadeInLeft">
@@ -44,32 +44,18 @@
 
     <article class="main-content__actu col-lg-6 col-md-12">
         <div class="main-content__actu--padding">
-
-            <?php 
-     
-if ( have_posts() ) {
+            
+            
+            <?php
     
-	while ( have_posts() ) {
-        
-		the_post(); ?>
+    while(have_posts()) {
+        the_post(); ?>
+        <h2><?php the_title(); ?></h2>
+        <p class="main-content__actu--text"><?php the_content(); ?></p>
+   <?php }
+       ?>     
+            
 
-
-
-            <h2 class="main-content__actu--title">
-                <a href="<?php the_permalink();?>">
-                    <?php the_title(); ?>
-                </a>
-            </h2>
-            <p class="main-content__actu--text">
-                <?php the_excerpt(); ?>
-            </p>
-            <p><a class="main-content__actu--text" href="<?php the_permalink(); ?>">Continuer la lecture &raquo;</a></p>
-
-
-
-            <?php	 }
-}
-?>
         </div>
     </article>
 
@@ -97,7 +83,9 @@ if ( have_posts() ) {
         </div>
     </aside>
 </section>
+  
 
 
+get_footer();
 
-<?php get_footer(); ?>
+?>

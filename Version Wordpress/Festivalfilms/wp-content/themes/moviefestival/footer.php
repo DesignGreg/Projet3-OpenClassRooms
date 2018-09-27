@@ -10,7 +10,7 @@
                 <div class="col-lg-2"></div>
                 <div class="footer__mentions col-lg-4">
                     <div class="footer__mentions--padding">
-                        <a class="footer__mentions--link" href="mentions.html">Mentions légales</a>
+                        <a class="footer__mentions--link" href="<?php echo site_url('/mentions-legales');?>">Mentions légales</a>
                     </div>
                 </div>
                 <div class="col-lg-1"></div>

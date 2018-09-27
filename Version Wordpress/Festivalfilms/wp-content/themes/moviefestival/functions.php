@@ -17,4 +17,3 @@ function moviefestival_enqueue_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'moviefestival_enqueue_scripts');
 
-?>
