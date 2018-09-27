@@ -107,30 +107,9 @@
                 </div>
             </div>
         </article>
+        
+<?php get_sidebar ('right'); ?>
 
-    <!-- Plugin affichant les derniers articles publiés -->
-    <aside class="main-content__list col-lg-3 col-md-12 animated fadeInRight">
-        <div class="main-content__list--padding">
-            <div class="main-content__list--article">
-                <h3 class="main-content__list--title">Lancement du festival</h3>
-                <p class="main-content__list--text">
-                    Les premières projections vont débuter aujourd'hui à 18h. Il est encore temps de vous inscrire, nous vous ferons de la place !
-                </p>
-            </div>
-            <div class="main-content__list--article">
-                <h3 class="main-content__list--title">Bientôt le festival</h3>
-                <p class="main-content__list--text">
-                    Dans moins d'une semaine, le Festival des Films de Plein Air débutera, et vous êtes déjà nombreux à vous êtes inscrits.
-                </p>
-            </div>
-            <div class="main-content__list--article">
-                <h3 class="main-content__list--title">Un réalisateur sera présent</h3>
-                <p class="main-content__list--text">
-                    Nous aurons le plaisir d'accueillir Pierre Laurent, auteur-réalisateur de nombreux films indépendants, qui nous partagera son point de vue sur les films projetés.
-                </p>
-            </div>
-        </div>
-    </aside>
 </section>
   
 

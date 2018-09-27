@@ -32,19 +32,6 @@
                                 <input type="checkbox" id="lost" name="films" value="Lost in translation">
                                 <label for="lost">Lost in translation</label>
                         </fieldset>
-<!--
-                    <label for="films">Sélection des films, maintenez la touche Ctrl enfoncée pour en sélectionner plusieurs</label>
-                    <select class="main-content__form--input" name="films" id="films" size="4" multiple required>
-                        <option value="lahaine">La Haine</option>
-                        <option value="2001">2001:l'odyssée de l'espace</option>
-                        <option value="requiem">Requiem for a dream</option>
-                        <option value="mulhollanddrive">Mulholland Drive</option>
-                        <option value="carnage">Carnage</option>
-                        <option value="undertheskin">Under the skin</option>
-                        <option value="edwardmainsdargent">Edward aux mains d'argent</option>
-                        <option value="lostintranslation">Lost in translation</option>
-                    </select>
--->
                     <input class="main-content__form--input" type="submit" value="S'inscrire">
                 </form>
                 <div class="main-content__form--text">
@@ -79,29 +66,8 @@
             </div>
         </article>
 
-        <!-- Plugin affichant les derniers articles publiés -->
-        <aside class="main-content__list col-lg-3 col-md-12 animated fadeInRight">
-            <div class="main-content__list--padding">
-                <div class="main-content__list--article">
-                    <h3 class="main-content__list--title">Lancement du festival</h3>
-                    <p class="main-content__list--text">
-                        Les premières projections vont débuter aujourd'hui à 18h. Il est encore temps de vous inscrire, nous vous ferons de la place !
-                    </p>
-                </div>
-                <div class="main-content__list--article">
-                    <h3 class="main-content__list--title">Bientôt le festival</h3>
-                    <p class="main-content__list--text">
-                        Dans moins d'une semaine, le Festival des Films de Plein Air débutera, et vous êtes déjà nombreux à vous êtes inscrits.
-                    </p>
-                </div>
-                <div class="main-content__list--article">
-                    <h3 class="main-content__list--title">Un réalisateur sera présent</h3>
-                    <p class="main-content__list--text">
-                        Nous aurons le plaisir d'accueillir Pierre Laurent, auteur-réalisateur de nombreux films indépendants, qui nous partagera son point de vue sur les films projetés.
-                    </p>
-                </div>
-            </div>
-        </aside>
+        <?php get_sidebar ('right'); ?>
+        
     </section>
     
 <?php get_footer(); ?>

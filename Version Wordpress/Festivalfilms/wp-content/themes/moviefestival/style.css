@@ -1504,4 +1504,14 @@ body {
   margin: 1rem 0 1rem 0;
 }
 
+/* Ajour pour gérer wp_archives, sidebar-right */
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding-bottom: 2rem;
+}
+
 /*# sourceMappingURL=style.css.map */
