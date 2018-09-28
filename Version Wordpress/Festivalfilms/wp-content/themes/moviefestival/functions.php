@@ -28,4 +28,5 @@ add_action('after_setup_theme', 'theme_features');
 
 if ( function_exists ('register_sidebar')) { 
     register_sidebar ('right'); 
+    register_sidebar ('left'); 
 } ?>
