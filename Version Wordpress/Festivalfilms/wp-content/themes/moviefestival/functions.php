@@ -10,13 +10,20 @@ function moviefestival_enqueue_styles() {
   wp_enqueue_style( 'core', get_stylesheet_uri() );
 
 }
-add_action( 'wp_enqueue_scripts', 'moviefestival_enqueue_styles');
+add_action('wp_enqueue_scripts', 'moviefestival_enqueue_styles');
+
 
 function moviefestival_enqueue_scripts() {
   wp_enqueue_script( 'bootstrap', get_template_directory_uri() . '/dependencies/bootstrap/dist/js/bootstrap.bundle.min.js', array( 'jquery' ) );
 }
-add_action( 'wp_enqueue_scripts', 'moviefestival_enqueue_scripts');
+add_action('wp_enqueue_scripts', 'moviefestival_enqueue_scripts');
 
+
+function theme_features() {
+    register_nav_menu('headerMenu', 'Menu Principal');
+    add_theme_support('title-tag');
+}
+add_action('after_setup_theme', 'theme_features');
 
 
 if ( function_exists ('register_sidebar')) { 

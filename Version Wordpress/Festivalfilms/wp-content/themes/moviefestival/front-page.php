@@ -44,27 +44,26 @@
         </aside>
 
         <!-- Contenu principal de chaque page -->
-        <article class="main-content__home col-lg-6 col-md-12">
-            <div class="main-content__home--padding">
-                <h2 class="main-content__home--title">Présentation du Festival</h2>
-                <p class="main-content__home--text">
-                    L'association "Festival des Films de Plein Air" est fière de vous présenter ce festival qui se déroulera du 5 au 8 août, parc Monceay à Paris, et où seront projetés en plein air plusieurs films d'auteur.
-                </p>
-                <img class="main-content__home--image img-fluid" src="<?php bloginfo('template_directory'); ?>/images/pleinair.jpg" alt="Film en plein air">
-                <p class="main-content__home--text">
-                    Ces projections auront lieu tous les soirs, de 18h à minuit.
-                </p>
-                <p class="main-content__home--text">
-                    Cette initiative est animée par la présidente de l'association, Jennifer Viala, et possible grâce au soutien de la mairie de Paris.
-                </p>
-                <p class="main-content__home--text">
-                    Pour découvrir la liste des films projetés pendant le festival, rendez-vous sur la page "films". Si vous venez, nous vous remercions de bien vouloir remplir le formulaire d'inscription sur votre gauche, qui nous permettra d'anticiper le nombre de participants.
-                </p>
-                <p class="main-content__home--text">
-                    Au plaisir de vous voir au parc Monceau entre les 5 et 8 août.
-                </p>
-            </div>
-        </article>
+        <article class="main-content__actu col-lg-6 col-md-12">
+        <div class="main-content__actu--padding">
+            
+            <?php 
+     
+if ( have_posts() ) {
+    
+	while ( have_posts() ) {
+        
+		the_post(); ?>
+            
+        <h2><?php the_title(); ?></h2>
+        <p class="main-content__actu--text"><?php the_content(); ?></p>   
+            
+<?php	 }
+}
+?>            
+
+        </div>
+    </article>
 
         <?php get_sidebar ('right'); ?>
         

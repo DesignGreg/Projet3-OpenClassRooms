@@ -38,6 +38,28 @@
                 <div class="nav-links__empty col-lg-3"></div>
                 <div class="nav-links__list col-lg-6">
                     <div class="nav-links__list--radius collapse navbar-collapse" id="navbarSupportedContent">
+                    
+                    <?php
+                      
+                       
+                        
+                        wp_nav_menu([
+          'menu'            => 'headerMenu',
+          'theme_location'  => 'headerMenu',
+          'container'       => false,
+          'container_id'    => false,
+          'container_class' => 'navbar-nav',
+          'menu_id'         => false,
+          'menu_class'      => 'navbar-nav',
+          'depth'           => 0,
+          'fallback_cb'     => 'bs4navwalker::fallback',
+          'walker'          => new bs4navwalker()
+    ]);
+                    ?>
+                    
+                    
+                    
+<!--
                         <ul class="navbar-nav">
                             <li class="nav-item active">
                                 <a class="nav-link" href="<?php echo site_url('/accueil');?>">Accueil</a>
@@ -52,6 +74,7 @@
                                 <a class="nav-link" href="<?php echo site_url('/contact');?>">Contact</a>
                             </li>
                         </ul>
+-->
                     </div>
                 </div>
                 <div class="nav-links__social col-lg-3">
@@ -77,7 +100,7 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
--->
+
         <?php
         wp_nav_menu([
           'menu'            => 'primary',
@@ -92,4 +115,5 @@
           'walker'          => new bs4navwalker()
     ]);
   ?>
+  
 <!--    </nav>-->

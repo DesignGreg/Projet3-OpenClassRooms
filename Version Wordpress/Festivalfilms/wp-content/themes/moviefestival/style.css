@@ -1510,7 +1510,7 @@ ul {
     list-style-type: none;
 }
 
-li {
+.main-content__list--text li {
     padding-bottom: 2rem;
 }
 
