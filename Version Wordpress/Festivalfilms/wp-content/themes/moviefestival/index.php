@@ -27,9 +27,9 @@ if ( have_posts() ) {
             </p>
             <p><a class="main-content__actu--text" href="<?php the_permalink(); ?>">Continuer la lecture &raquo;</a></p>
 
-
-
             <?php	 }
+    
+    echo paginate_links();
 }
 ?>
         </div>
