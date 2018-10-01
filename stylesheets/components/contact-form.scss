@@ -1,0 +1,62 @@
+.main-content__contact {
+    background-color: $main-background-color;
+    color: $second-color;
+
+    &--legend {
+        background-color: $second-background-color;
+        color: $main-color;
+    }
+    
+    &--textarea {
+        resize: none;
+    }
+
+    &--padding {
+        background-color: $second-background-color;
+        color: $main-color;
+        border-radius: 2%;
+
+        label {
+            background-color: $second-background-color;
+            color: $main-color;
+        }
+
+        input:focus {
+            outline: 1px solid $main-color;
+        }
+
+        form {
+            background-color: $second-background-color;
+            color: $second-color;
+            border-radius: 2%;
+
+            input[type="submit"] {
+                background-color: $main-background-color;
+                color: $second-color;
+                border-radius: 20%;
+
+                &:active {
+                    border: none;
+                    outline: none;
+                    box-shadow: 1px 3px 1px $main-color;
+                }
+                
+                &:focus {
+                    border: none;
+                    outline: none;
+                    box-shadow: 1px 3px 1px $main-color;
+                }
+            }
+        }
+    }
+
+    &--input {
+        background-color: $second-background-color;
+        color: $main-color;
+        display: block;
+        width: 80%;
+        border: 1px solid $main-color;
+        border-radius: 2%;
+        outline: none;
+    }
+}

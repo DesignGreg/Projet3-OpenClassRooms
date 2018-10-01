@@ -94,6 +94,37 @@
         margin-bottom: 0.5rem;
         font-size: $standard-font;
     }
+    
+    // formulaire de contact
+    .main-content__contact--padding label {
+        margin-top: 1.5rem;
+        padding-left: 3rem;
+        width: 90%;
+        font-size: $standard-less-font;
+    }
+    
+    .main-content__contact--padding form {
+        padding-bottom: 1rem;
+        width: 90%;
+        margin: 0 auto;
+
+        input[type="submit"] {
+            margin-top: 1rem;
+            width: 30%;
+        }
+    }
+
+    .main-content__contact--input {
+        margin: 0 auto;
+        margin-bottom: 0.5rem;
+        font-size: $standard-less-font;
+    }
+
+    .main-content__contact--legend {
+        margin: 0 auto;
+        margin-bottom: 0.5rem;
+        font-size: $standard-font;
+    }
 
 }
 
@@ -220,6 +251,37 @@
             padding-left: 0.5rem;
         }
     }
+    
+    // formulaire de contact
+    .main-content__contact--padding label {
+        margin-top: 1.5rem;
+        padding-left: 4rem;
+        width: 90%;
+        font-size: $standard-less-font;
+    }
+    
+    .main-content__contact--padding form {
+        padding-bottom: 1rem;
+        width: 70%;
+        margin: 0 auto;
+
+        input[type="submit"] {
+            margin-top: 1rem;
+            width: 20%;
+        }
+    }
+
+    .main-content__contact--input {
+        margin: 0 auto;
+        margin-bottom: 0.5rem;
+        font-size: $standard-less-font;
+    }
+
+    .main-content__contact--legend {
+        margin: 0 auto;
+        margin-bottom: 0.5rem;
+        font-size: $standard-font;
+    }
 }
 
                     /* 599 -- 767 */
@@ -321,6 +383,37 @@
         label {
             padding-left: 0.5rem;
         }
+    }
+    
+    // formulaire de contact
+    .main-content__contact--padding label {
+        margin-top: 1.5rem;
+        padding-left: 4rem;
+        width: 90%;
+        font-size: $standard-font;
+    }
+    
+    .main-content__contact--padding form {
+        padding-bottom: 1rem;
+        width: 70%;
+        margin: 0 auto;
+
+        input[type="submit"] {
+            margin-top: 1rem;
+            width: 20%;
+        }
+    }
+
+    .main-content__contact--input {
+        margin: 0 auto;
+        margin-bottom: 0.5rem;
+        font-size: $standard-less-font;
+    }
+
+    .main-content__contact--legend {
+        margin: 0 auto;
+        margin-bottom: 0.5rem;
+        font-size: $standard-font;
     }
 }
 
@@ -469,6 +562,35 @@
         margin-bottom: 0.5rem;
         font-size: $standard-font;
     }
+    
+    // formulaire de contact
+    .main-content__contact--padding label {
+        margin-top: 1.5rem;
+        padding-left: 3rem;
+        width: 90%;
+        font-size: $standard-font;
+    }
+    
+    .main-content__contact--padding form {
+        padding-bottom: 1rem;
+
+        input[type="submit"] {
+            margin-top: 1rem;
+            width: 30%;
+        }
+    }
+
+    .main-content__contact--input {
+        margin: 0 auto;
+        margin-bottom: 0.5rem;
+        font-size: $standard-less-font;
+    }
+    
+    .main-content__contact--legend {
+        margin: 0 auto;
+        margin-bottom: 0.5rem;
+        font-size: $standard-font;
+    }
 }
                     /* 1200 */
 
@@ -558,6 +680,31 @@
     .main-content__form--legend {
         font-size: $medium-less-font;
     }
+    
+    // formulaire de contact
+    .main-content__contact--padding label {
+        margin-top: 1rem;
+        padding-left: 4rem;
+        width: 90%;
+    }
+    
+    .main-content__contact--padding form {
+        padding-bottom: 1rem;
+
+        input[type="submit"] {
+            margin-top: 1rem;
+            width: 20%;
+        }
+    }
+
+    .main-content__contact--input {
+        margin: 0 auto;
+        margin-bottom: 0.5rem;
+    }
+
+    .main-content__contact--legend {
+        font-size: $medium-less-font;
+    }
 }
 
                     /* 992 - 1251 */
@@ -590,6 +737,12 @@
     // formulaire films checkbox
     .main-content__form--checkbox {
         padding: 0 3rem 1rem 3rem;
+
+    }
+    
+    // formulaire de contact
+    .main-content__contact--padding label {
+        padding-left: 5.5rem;
 
     }
 }
