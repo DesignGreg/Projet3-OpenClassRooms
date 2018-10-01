@@ -1,24 +1,3 @@
-// Media Queries
-@media screen and (min-width: 1px) and (max-width: 598px) {
-    .header__title {
-        padding: 1rem 0;
-        
-        &--text {
-            font-size: $medium-plus-font !important;
-        }
-    }
-}
-
-@media screen and (min-width: 599px) and (max-width: 767px) {
-    .header__title {
-        padding: 1rem 0;
-        
-        &--text {
-            font-size: $big-less-font !important;
-        }
-    }
-}
-
 .header__title {
     color: $second-color;
     padding: 1rem 0;
