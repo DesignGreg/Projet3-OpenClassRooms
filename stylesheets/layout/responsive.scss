@@ -1,3 +1,16 @@
+                    /* 1 -- 446 */
+
+@media screen and (min-width: 1px) and (max-width: 446px) {
+    // formulaire films checkbox
+    .main-content__form--checkbox {
+        padding: 0 2rem 1rem 2rem;
+
+        label {
+            padding-left: 0.5rem;
+        }
+    }
+}                    
+
                     /* 1 -- 499 */
 
 @media screen and (min-width: 1px) and (max-width: 499px) {  
@@ -8,6 +21,95 @@
         left: 6rem;
     }
 }
+
+                    /* 1 -- 575 */
+
+@media screen and (min-width: 1px) and (max-width: 575px) {
+    // liste derniers articles
+    .main-content__list--padding {
+        margin-right: 1.5rem;
+        margin-left: 1.5rem;
+    }
+    
+    .main-content__list--article {
+        width: 90%;
+        margin:  0 auto;
+    }
+    
+    .main-content__list--title {
+        padding: 1rem 0 0 2rem;
+        width: 90%;
+        font-size: $medium-less-font;
+    }
+    
+    .main-content__list--text {
+        margin-top: 1.5rem;
+        padding-left: 3rem;
+        width: 90%;
+        font-size: $standard-less-font;
+        
+        &:last-child {
+            padding-bottom: 1rem;
+        }
+    }
+    
+    // formulaire films
+    .main-content__form--padding {
+        margin-right: 1.5rem;
+        margin-left: 1.5rem;
+    }
+
+    .main-content__form--padding label {
+        margin-top: 1.5rem;
+        padding-left: 3rem;
+        width: 90%;
+        font-size: $standard-less-font;
+    }
+    
+    .main-content__form--padding form {
+        padding-bottom: 1rem;
+        width: 90%;
+        margin: 0 auto;
+
+        input[type="submit"] {
+            margin-top: 1rem;
+            width: 30%;
+        }
+    }
+
+    .main-content__form--input {
+        margin: 0 auto;
+        margin-bottom: 0.5rem;
+        font-size: $standard-less-font;
+    }
+
+    .main-content__form--text {
+        padding-left: 3rem;
+        width: 90%;
+        font-size: $standard-less-font;
+    }
+    
+    .main-content__form--legend {
+        margin: 0 auto;
+        margin-bottom: 0.5rem;
+        font-size: $standard-font;
+    }
+
+}
+
+                    /* 447 -- 575 */
+
+@media screen and (min-width: 447px) and (max-width: 575px) {
+    // formulaire films checkbox
+    .main-content__form--checkbox {
+        padding: 0 4rem 1rem 4rem;
+
+        label {
+            padding-left: 0.5rem;
+        }
+    }
+}
+
                     /* 500 -- 575 */
 
 @media screen and (min-width: 500px) and (max-width: 575px) {  
@@ -39,6 +141,85 @@
         position: relative;
         left: 10rem;
     }
+    
+    // liste dernier articles
+    .main-content__list--padding {
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+    
+    .main-content__list--article {
+        width: 90%;
+        margin:  0 auto;
+    }
+    
+    .main-content__list--title {
+        padding: 1rem 0 0 2rem;
+        width: 90%;
+        font-size: $medium-less-font;
+    }
+    
+    .main-content__list--text {
+        margin-top: 1.5rem;
+        padding-left: 3rem;
+        width: 90%;
+        font-size: $standard-less-font;
+        
+        &:last-child {
+            padding-bottom: 1rem;
+        }
+    }
+    
+    // formulaire films
+    .main-content__form--padding {
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+
+    .main-content__form--padding label {
+        margin-top: 1.5rem;
+        padding-left: 4rem;
+        width: 90%;
+        font-size: $standard-less-font;
+    }
+    
+    .main-content__form--padding form {
+        padding-bottom: 1rem;
+        width: 70%;
+        margin: 0 auto;
+
+        input[type="submit"] {
+            margin-top: 1rem;
+            width: 20%;
+        }
+    }
+
+    .main-content__form--input {
+        margin: 0 auto;
+        margin-bottom: 0.5rem;
+        font-size: $standard-less-font;
+    }
+
+    .main-content__form--text {
+        padding-left: 3rem;
+        width: 90%;
+        font-size: $standard-less-font;
+    }
+    
+    .main-content__form--legend {
+        margin: 0 auto;
+        margin-bottom: 0.5rem;
+        font-size: $standard-font;
+    }
+    
+    // formulaire films checkbox
+    .main-content__form--checkbox {
+        padding: 0 4rem 1rem 4rem;
+
+        label {
+            padding-left: 0.5rem;
+        }
+    }
 }
 
                     /* 599 -- 767 */
@@ -61,6 +242,85 @@
         width: 70%;
         position: relative;
         left: 4rem;
+    }
+    
+    // liste derniers articles
+    .main-content__list--padding {
+        margin-right: 2.5rem;
+        margin-left: 2.5rem;
+    }
+    
+    .main-content__list--article {
+        width: 90%;
+        margin:  0 auto;
+    }
+    
+    .main-content__list--title {
+        padding: 1rem 0 0 2rem;
+        width: 90%;
+        font-size: $medium-less-font;
+    }
+    
+    .main-content__list--text {
+        margin-top: 1.5rem;
+        padding-left: 3rem;
+        width: 90%;
+        font-size: $standard-less-font;
+        
+        &:last-child {
+            padding-bottom: 1rem;
+        }
+    }
+    
+    // formulaire films
+    .main-content__form--padding {
+        margin-right: 2.5rem;
+        margin-left: 2.5rem;
+    }
+
+    .main-content__form--padding label {
+        margin-top: 1.5rem;
+        padding-left: 4rem;
+        width: 90%;
+        font-size: $standard-font;
+    }
+    
+    .main-content__form--padding form {
+        padding-bottom: 1rem;
+        width: 70%;
+        margin: 0 auto;
+
+        input[type="submit"] {
+            margin-top: 1rem;
+            width: 20%;
+        }
+    }
+
+    .main-content__form--input {
+        margin: 0 auto;
+        margin-bottom: 0.5rem;
+        font-size: $standard-less-font;
+    }
+
+    .main-content__form--text {
+        padding-left: 3rem;
+        width: 90%;
+        font-size: $standard-less-font;
+    }
+
+    .main-content__form--legend {
+        margin: 0 auto;
+        margin-bottom: 0.5rem;
+        font-size: $standard-font;
+    }
+    
+    // formulaire films checkbox
+    .main-content__form--checkbox {
+        padding: 0 8rem 1rem 8rem;
+
+        label {
+            padding-left: 0.5rem;
+        }
     }
 }
 
@@ -141,6 +401,74 @@
     .footer__credits--padding {
         margin-left: -1rem;
     }
+    
+    // liste derniers articles
+    .main-content__list--padding {
+        margin-right: 1rem;
+        margin-left: 0rem;
+    }
+    
+    .main-content__list--article {
+        width: 90%;
+        margin:  0 auto;
+    }
+    
+    .main-content__list--title {
+        padding: 1rem 0 0 2rem;
+        width: 90%;
+        font-size: $medium-less-font;
+    }
+    
+    .main-content__list--text {
+        margin-top: 1.5rem;
+        padding-left: 3rem;
+        width: 90%;
+        font-size: $standard-less-font;
+        
+        &:last-child {
+            padding-bottom: 1rem;
+        }
+    }
+    
+    // formulaire films
+    .main-content__form--padding {
+        margin-right: 0rem;
+        margin-left: 1rem;
+    }
+
+    .main-content__form--padding label {
+        margin-top: 1.5rem;
+        padding-left: 3rem;
+        width: 90%;
+        font-size: $standard-font;
+    }
+    
+    .main-content__form--padding form {
+        padding-bottom: 1rem;
+
+        input[type="submit"] {
+            margin-top: 1rem;
+            width: 30%;
+        }
+    }
+
+    .main-content__form--input {
+        margin: 0 auto;
+        margin-bottom: 0.5rem;
+        font-size: $standard-less-font;
+    }
+
+    .main-content__form--text {
+        padding-left: 3rem;
+        width: 90%;
+        font-size: $standard-less-font;
+    }
+
+    .main-content__form--legend {
+        margin: 0 auto;
+        margin-bottom: 0.5rem;
+        font-size: $standard-font;
+    }
 }
                     /* 1200 */
 
@@ -169,5 +497,99 @@
     
     .footer__credits--padding {
         margin-left: -1rem;
+    }
+    
+    // liste derniers articles
+    .main-content__list--padding {
+        margin-right: 2rem;
+        margin-left: 1rem;
+    }
+    
+    .main-content__list--article {
+        width: 90%;
+        margin:  0 auto;
+    }
+    
+    .main-content__list--title {
+        padding: 1rem 0 0 2rem;
+        width: 90%;
+    }
+    
+    .main-content__list--text {
+        margin-top: 1.5rem;
+        padding-left: 3rem;
+        width: 90%;
+        
+        &:last-child {
+            padding-bottom: 1rem;
+        }
+    }
+    
+    // formulaire films
+    .main-content__form--padding {
+        margin-right: 1rem;
+        margin-left: 2rem;
+    }
+
+    .main-content__form--padding label {
+        margin-top: 1rem;
+        padding-left: 3rem;
+        width: 90%;
+    }
+    .main-content__form--padding form {
+        padding-bottom: 1rem;
+
+        input[type="submit"] {
+            margin-top: 1rem;
+            width: 30%;
+        }
+    }
+
+    .main-content__form--input {
+        margin: 0 auto;
+        margin-bottom: 0.5rem;
+    }
+
+    .main-content__form--text {
+        padding-left: 3rem;
+        width: 90%;
+    }
+
+    .main-content__form--legend {
+        font-size: $medium-less-font;
+    }
+}
+
+                    /* 992 - 1251 */
+
+@media screen and (min-width: 992px) and (max-width: 1251px) {
+    // formulaire films checkbox
+    .main-content__form--checkbox {
+        padding: 0 1rem 1rem 1rem;
+
+        label {
+            font-size: $standard-less-font;
+            padding-left: 1rem;
+        }
+    }
+}
+
+                    /* 1252 - 1379 */
+
+@media screen and (min-width: 1252px) and (max-width: 1379px) {
+    // formulaire films checkbox
+    .main-content__form--checkbox {
+        padding: 0 2rem 1rem 2rem;
+
+    }
+}
+
+                    /* 1380 */
+
+@media screen and (min-width: 1380px) {
+    // formulaire films checkbox
+    .main-content__form--checkbox {
+        padding: 0 3rem 1rem 3rem;
+
     }
 }
