@@ -100,6 +100,11 @@
     &--title {
         background-color: $second-background-color;
         color: $main-color;
+        
+        &:not(:first-child) {
+            border-top: 1px solid $main-color;
+            padding-top: 1rem;
+        }
     }
     
     &--text {
