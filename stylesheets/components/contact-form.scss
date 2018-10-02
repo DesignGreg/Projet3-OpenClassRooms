@@ -1,51 +1,48 @@
 .main-content__contact {
-    background-color: $main-background-color;
-    color: $second-color;
+    background-color: $second-background-color;
+    color: $main-color;
 
-    &--legend {
-        background-color: $second-background-color;
-        color: $main-color;
-    }
-    
     &--textarea {
         resize: none;
+
+        &:focus {
+            box-shadow: 1px 1px 1px $main-color;
+        }
     }
 
-    &--padding {
+    label {
         background-color: $second-background-color;
         color: $main-color;
+        display: block;
+    }
+
+    input:focus {
+        box-shadow: 1px 1px 1px $main-color;
+    }
+
+    form {
+        background-color: $second-background-color;
+        color: $second-color;
         border-radius: 2%;
+        display: block;
+        text-align: center;
 
-        label {
-            background-color: $second-background-color;
-            color: $main-color;
-        }
-
-        input:focus {
-            outline: 1px solid $main-color;
-        }
-
-        form {
-            background-color: $second-background-color;
+        input[type="submit"] {
+            background-color: $main-background-color;
             color: $second-color;
-            border-radius: 2%;
+            border-radius: 20%;
+            width: 30%;
 
-            input[type="submit"] {
-                background-color: $main-background-color;
-                color: $second-color;
-                border-radius: 20%;
+            &:active {
+                border: none;
+                outline: none;
+                box-shadow: 1px 3px 1px $main-color;
+            }
 
-                &:active {
-                    border: none;
-                    outline: none;
-                    box-shadow: 1px 3px 1px $main-color;
-                }
-                
-                &:focus {
-                    border: none;
-                    outline: none;
-                    box-shadow: 1px 3px 1px $main-color;
-                }
+            &:focus {
+                border: none;
+                outline: none;
+                box-shadow: 1px 3px 1px $main-color;
             }
         }
     }
@@ -53,7 +50,6 @@
     &--input {
         background-color: $second-background-color;
         color: $main-color;
-        display: block;
         width: 80%;
         border: 1px solid $main-color;
         border-radius: 2%;
