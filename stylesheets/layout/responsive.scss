@@ -25,6 +25,19 @@
                     /* 1 -- 575 */
 
 @media screen and (min-width: 1px) and (max-width: 575px) {
+    // contenu principal
+    .main-content__home--padding {
+        padding: 2rem 3rem 0.5rem 3rem;
+    }
+    
+    .main-content__home--title {
+        font-size: $medium-font;
+    }
+    
+    .main-content__home--text {
+        font-size: $standard-less-font;
+    }
+    
     // liste derniers articles
     .main-content__list--padding {
         margin-right: 1.5rem;
@@ -167,6 +180,20 @@
                     /* 576 -- 767 */
 
 @media screen and (min-width: 576px) and (max-width: 767px) {  
+    // contenu principal
+    .main-content__home--padding {
+        padding: 2rem 4rem 0.5rem 4rem;
+    }
+    
+    .main-content__home--title {
+        font-size: $medium-font;
+    }
+    
+    .main-content__home--text {
+        font-size: $standard-less-font;
+    }
+    
+    // footer
     .footer--width {
         width: 40%;
         position: relative;
@@ -300,6 +327,20 @@
                     /* 768 -- 991 */   
 
 @media screen and (min-width: 768px) and (max-width: 991px) {  
+    // contenu principal
+    .main-content__home--padding {
+        padding: 2rem 4rem 0.5rem 4rem;
+    }
+    
+    .main-content__home--title {
+        font-size: $medium-font;
+    }
+    
+    .main-content__home--text {
+        font-size: $standard-less-font;
+    }
+    
+    // footer
     .footer--width {
         width: 70%;
         position: relative;
@@ -468,6 +509,19 @@
                     /* 992 -- 1199 */
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
+    // contenu principal
+    .main-content__home--padding {
+        padding: 2rem 4rem 0.5rem 4rem;
+    }
+    
+    .main-content__home--title {
+        font-size: $medium-font;
+    }
+    
+    .main-content__home--text {
+        font-size: $standard-less-font;
+    }
+    
     // Navigation
     .nav-item {
         padding-left: 0rem;
@@ -595,6 +649,11 @@
                     /* 1200 */
 
 @media screen and (min-width: 1200px) {
+    // contenu principal
+    .main-content__home--padding {
+        padding: 2rem 6rem 0.5rem 6rem;
+    }
+    
     // Navigation
     .nav-link {
         font-size: $medium-font;

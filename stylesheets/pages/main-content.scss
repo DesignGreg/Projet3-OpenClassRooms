@@ -1,0 +1,33 @@
+.main-content__home {
+    background-color: $main-background-color;
+    color: $second-color;
+
+    &--padding {
+        background-color: $second-background-color;
+        color: $main-color;
+        width: 90%;
+        margin: 0 auto;
+        border-radius: 2%;
+    }
+    
+    &--title {
+        background-color: $second-background-color;
+        color: $main-color;
+        
+        &:not(:first-child) {
+            border-top: 1px solid $main-color;
+            padding-top: 1rem;
+        }
+    }
+    
+    &--text {
+    background-color: $second-background-color;
+    color: $main-color;
+    padding-top: 0.5rem;
+    }
+    
+    &--image {
+        border-radius: 5%;
+        padding: 1rem 0;
+    }
+}

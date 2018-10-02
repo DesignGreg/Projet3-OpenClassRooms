@@ -4,9 +4,7 @@
 @import "abstracts/mixins";
 @import "abstracts/variables";
 
-@import "components/article-home";
 @import "components/slider";
-@import "components/article-mentions";
 @import "components/aside-form";
 @import "components/aside-list";
 @import "components/contact-form";
@@ -16,3 +14,5 @@
 
 @import "layout/global";
 @import "layout/responsive";
+
+@import "pages/main-content";
