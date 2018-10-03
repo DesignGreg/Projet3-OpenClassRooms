@@ -6,8 +6,8 @@
         <?php get_sidebar ('left'); ?>
 
         <!-- Contenu principal de chaque page -->
-        <article class="main-content__actu col-lg-6 col-md-12">
-        <div class="main-content__actu--padding">
+        <article class="main-content__home col-lg-6 col-md-12">
+        <div class="main-content__home--padding">
             
             <?php 
      
@@ -18,7 +18,7 @@ if ( have_posts() ) {
 		the_post(); ?>
             
         <h2><?php the_title(); ?></h2>
-        <p class="main-content__actu--text"><?php the_content(); ?></p>   
+        <p class="main-content__home--text"><?php the_content(); ?></p>   
             
 <?php	 }
 }
