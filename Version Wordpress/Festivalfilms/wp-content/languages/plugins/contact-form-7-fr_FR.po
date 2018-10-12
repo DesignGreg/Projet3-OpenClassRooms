@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Contact Form 7 - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-07-12 14:30:53+0000\n"
+"PO-Revision-Date: 2018-10-09 06:29:17+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,10 @@ msgstr ""
 "X-Generator: GlotPress/2.4.0-alpha\n"
 "Language: fr\n"
 "Project-Id-Version: Plugins - Contact Form 7 - Stable (latest release)\n"
+
+#: includes/config-validator.php:581
+msgid "It is not allowed to use files outside the wp-content directory."
+msgstr "Il est interdit d’utiliser des fichiers en dehors du répertoire wp-content."
 
 #: modules/acceptance.php:251
 msgid "Make this checkbox optional"
@@ -263,7 +267,7 @@ msgstr "https://contactform7.com/comment-blacklist/"
 #. blacklist'
 #: admin/includes/welcome-panel.php:26
 msgid "Contact Form 7 supports spam-filtering with %1$s. Intelligent %2$s blocks annoying spambots. Plus, using %3$s, you can block messages containing specified keywords or those sent from specified IP addresses."
-msgstr "Contact Form 7 permet de filtrer les spams avec %1$s. Les robots de span sont bloqués par l’intelligent %2$s. Vous pouvez aussi, avec %3$s, bloquer les messages contenant certains mots clés ou ceux envoyés d’adresses IP spécifiées."
+msgstr "Contact Form 7 permet de filtrer les spams avec %1$s. Les robots de spam sont bloqués par l’intelligent %2$s. Vous pouvez aussi, avec %3$s, bloquer les messages contenant certains mots clés ou ceux envoyés d’adresses IP spécifiées."
 
 #: admin/includes/welcome-panel.php:24
 msgid "Spammers target everything; your contact forms aren&#8217;t an exception. Before you get spammed, protect your contact forms with the powerful anti-spam features Contact Form 7 provides."

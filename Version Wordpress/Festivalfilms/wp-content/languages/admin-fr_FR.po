@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 4.9.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-09-10 07:48:09+0000\n"
+"PO-Revision-Date: 2018-10-01 13:42:01+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1432,7 +1432,7 @@ msgstr "%s est déjà en train de modifier cet article."
 #. translators: %s: user's display name
 #: wp-admin/includes/post.php:1604
 msgid "%s is already editing this post. Do you want to take over?"
-msgstr "%s est déjà en train de modifier cet article. Voulez-vous prendre la main dessus?"
+msgstr "%s est déjà en train de modifier cet article. Voulez-vous prendre la main dessus ?"
 
 #: wp-admin/includes/ms.php:996
 msgid "<a href=\"https://codex.wordpress.org/Network_Admin_Sites_Screen\">Documentation on Site Management</a>"

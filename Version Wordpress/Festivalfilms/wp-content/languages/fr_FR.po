@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 4.9.x - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-09-18 06:17:28+0000\n"
+"PO-Revision-Date: 2018-10-02 11:16:28+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -2726,7 +2726,7 @@ msgstr "Le champ texte mot de passe ne peut être vide."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1101
 msgid "Username contains invalid characters."
-msgstr "Le nom d’utilisateur contient des caractères non valides."
+msgstr "L’identifiant contient des caractères non valides."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:164
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:485
@@ -2987,7 +2987,7 @@ msgstr "Désolé, vous n’avez pas l’autorisation de supprimer cet utilisateu
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:627
 msgid "Username isn't editable."
-msgstr "Le nom d’utilisateur n’est pas modifiable."
+msgstr "L’identifiant n’est pas modifiable."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:583
 msgid "Sorry, you are not allowed to edit roles of this user."
@@ -3767,7 +3767,7 @@ msgstr "Précédent"
 
 #: wp-includes/general-template.php:396 wp-login.php:590 wp-login.php:1027
 msgid "Username or Email Address"
-msgstr "Nom d’utilisateur ou adresse e-mail"
+msgstr "Identifiant ou adresse e-mail"
 
 #. translators: %s: "Search WordPress.org themes" button
 #: wp-includes/customize/class-wp-customize-themes-section.php:91
@@ -4604,7 +4604,7 @@ msgstr "Valider"
 
 #: wp-includes/pluggable.php:537
 msgid "<strong>ERROR</strong>: Invalid username, email address or incorrect password."
-msgstr "<strong>ERREUR</strong> : Nom d’utilisateur, adresse de messagerie ou mot de passe non valide."
+msgstr "<strong>ERREUR</strong> : identifiant, adresse de messagerie ou mot de passe non valide."
 
 #. translators: 1: blog name, 2: separator(raquo), 3: term name, 4: taxonomy
 #. singular name
@@ -4729,7 +4729,7 @@ msgstr "Erreur lors de la soumission du commentaire"
 
 #: wp-includes/user.php:2360
 msgid "<strong>ERROR</strong>: Sorry, that username is not allowed."
-msgstr "<strong>ERREUR</strong> : désolé mais ce nom d’utilisateur n’est pas autorisé."
+msgstr "<strong>ERREUR</strong> : désolé mais cet identifiant n’est pas autorisé."
 
 #: wp-includes/rest-api/class-wp-rest-request.php:861
 msgid "Invalid parameter."
@@ -4998,7 +4998,7 @@ msgstr "Confirmez-vous avoir saisi le bon nom d’hôte (hostname) ?"
 
 #: wp-includes/wp-db.php:1587
 msgid "Are you sure you have the correct username and password?"
-msgstr "Confirmez-vous utiliser le bon nom d’utilisateur et le bon mot de passe ?"
+msgstr "Confirmez-vous utiliser le bon identifiant et le bon mot de passe ?"
 
 #. translators: 1: wp-config.php. 2: database host
 #: wp-includes/wp-db.php:1581
@@ -5013,7 +5013,7 @@ msgstr "Si vous ne savez pas comment configurer une base de données, vous devri
 #. translators: %s: database name
 #: wp-includes/wp-db.php:1053
 msgid "On some systems the name of your database is prefixed with your username, so it would be like <code>username_%1$s</code>. Could that be the problem?"
-msgstr "Dans certaines configurations système, le nom de la base de données a pour préfixe votre nom d’utilisateur, cela devrait ressembler à <code>nom_d_utilisateur_%1$s</code>. Cela pourrait-il être le problème ?"
+msgstr "Dans certaines configurations système, le nom de la base de données a pour préfixe votre identifiant, cela devrait ressembler à <code>identifiant_%1$s</code>. Cela pourrait-il être le problème ?"
 
 #. translators: 1: database user, 2: database name
 #: wp-includes/wp-db.php:1046
@@ -5027,7 +5027,7 @@ msgstr "Confirmez-vous que cela existe ?"
 #. translators: %s: database name
 #: wp-includes/wp-db.php:1037
 msgid "We were able to connect to the database server (which means your username and password is okay) but not able to select the %s database."
-msgstr "Nous avons pu nous connecter au serveur de la base données (ce qui signifie que votre nom d’utilisateur et mot de passe sont bons), mais nous n’avons pas pu sélectionner la base de données %s."
+msgstr "Nous avons pu nous connecter au serveur de la base données (ce qui signifie que votre identifiant et mot de passe sont bons), mais nous n’avons pas pu sélectionner la base de données %s."
 
 #: wp-includes/wp-db.php:1033
 msgid "Can&#8217;t select database"
@@ -5052,7 +5052,7 @@ msgstr "<strong>ERREUR</strong> : ce mot de passe ne correspond pas à l’iden
 
 #: wp-includes/user.php:147
 msgid "<strong>ERROR</strong>: Invalid username."
-msgstr "<strong>ERREUR</strong> : Nom d’utilisateur non valide."
+msgstr "<strong>ERREUR</strong> : identifiant non valide."
 
 #: wp-includes/taxonomy.php:523
 msgid "Categories list"
@@ -5181,11 +5181,11 @@ msgstr "Les noms de sites ne peuvent contenir que des minuscules (a-z) et des ch
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1108
 #: wp-includes/user.php:1499
 msgid "Sorry, that username is not allowed."
-msgstr "Désolé, ce nom d’utilisateur n’est pas autorisé."
+msgstr "Désolé, cet identifiant n’est pas autorisé."
 
 #: wp-includes/ms-functions.php:445
 msgid "Usernames can only contain lowercase letters (a-z) and numbers."
-msgstr "Les noms d’utilisateurs ne peuvent contenir que des minuscules (a-z) et des chiffres."
+msgstr "Les identifiants ne peuvent contenir que des minuscules (a-z) et des chiffres."
 
 #. translators: playlist item title
 #: wp-includes/media.php:1832 wp-includes/media.php:1847
@@ -8369,7 +8369,7 @@ msgstr "Mettre à jour la galerie"
 
 #: wp-includes/user.php:2354
 msgid "<strong>ERROR</strong>: This username is already registered. Please choose another one."
-msgstr "<strong>ERREUR</strong> : cet identifiant est déjà utilisé. Merci d’en choisir un autre."
+msgstr "<strong>ERREUR</strong> : cet identifiant est déjà utilisé. Veuillez en choisir un autre."
 
 #: wp-includes/ms-functions.php:471
 msgid "Please enter a valid email address."
@@ -10265,7 +10265,7 @@ msgstr "Si vous n’activez pas votre compte sous deux jours, vous devrez vous r
 
 #: wp-signup.php:611
 msgid "But, before you can start using your new username, <strong>you must activate it</strong>."
-msgstr "Mais, avant d&#8217;utiliser votre nouvel identifiant, <strong>vous devez l&#8217;activer</strong>."
+msgstr "Mais, avant d’utiliser votre nouvel identifiant, <strong>vous devez l’activer</strong>."
 
 #. translators: %s: username
 #: wp-signup.php:610
@@ -10279,7 +10279,7 @@ msgstr "Suivant"
 
 #: wp-signup.php:560
 msgid "Just a username, please."
-msgstr "Juste l’identifiant, s’il vous plaît."
+msgstr "Uniquement l’identifiant, s’il vous plaît."
 
 #. translators: %s: name of the network
 #: wp-signup.php:540
@@ -10438,7 +10438,7 @@ msgstr "<strong>ERREUR</strong> : le champ du mot de passe est vide."
 
 #: wp-includes/user.php:135
 msgid "<strong>ERROR</strong>: The username field is empty."
-msgstr "<strong>ERREUR</strong> : le champ du nom d’utilisateur est vide."
+msgstr "<strong>ERREUR</strong> : le champ de l’identifiant est vide."
 
 #: wp-includes/class-wp-theme.php:231
 msgid "Stylesheet is missing."
