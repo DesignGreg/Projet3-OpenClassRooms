@@ -8,6 +8,10 @@
         label {
             padding-left: 0.5rem;
         }
+        
+        p {
+            font-size: $standard-font;
+        }
     }
 }                    
 
@@ -74,7 +78,7 @@
 
     .main-content__form--padding label {
         margin-top: 1.5rem;
-        padding-left: 3rem;
+        padding-left: 0.5rem;
         width: 90%;
         font-size: $standard-less-font;
     }
@@ -150,6 +154,10 @@
 
         label {
             padding-left: 0.5rem;
+        }
+        
+        p {
+            font-size: $standard-font;
         }
     }
 }
@@ -236,7 +244,7 @@
 
     .main-content__form--padding label {
         margin-top: 1.5rem;
-        padding-left: 4rem;
+        padding-left: 0.5rem;
         width: 90%;
         font-size: $standard-less-font;
     }
@@ -276,6 +284,10 @@
 
         label {
             padding-left: 0.5rem;
+        }
+        
+        p {
+            font-size: $standard-font;
         }
     }
     
@@ -383,7 +395,7 @@
 
     .main-content__form--padding label {
         margin-top: 1.5rem;
-        padding-left: 4rem;
+        padding-left: 0.5rem;
         width: 90%;
         font-size: $standard-font;
     }
@@ -423,6 +435,10 @@
 
         label {
             padding-left: 0.5rem;
+        }
+        
+        p {
+            font-size: $standard-font;
         }
     }
     
@@ -585,7 +601,7 @@
 
     .main-content__form--padding label {
         margin-top: 1.5rem;
-        padding-left: 3rem;
+        padding-left: 0.5rem;
         width: 90%;
         font-size: $standard-font;
     }
@@ -714,7 +730,7 @@
 
     .main-content__form--padding label {
         margin-top: 1rem;
-        padding-left: 3rem;
+        padding-left: 0.5rem;
         width: 90%;
     }
     .main-content__form--padding form {
@@ -777,6 +793,10 @@
             font-size: $standard-less-font;
             padding-left: 1rem;
         }
+        
+        p {
+            font-size: $standard-font;
+        }
     }
 }
 
@@ -786,7 +806,6 @@
     // formulaire films checkbox
     .main-content__form--checkbox {
         padding: 0 2rem 1rem 2rem;
-
     }
 }
 

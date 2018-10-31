@@ -37,6 +37,9 @@
 .main-content__form--checkbox label {
   margin: 0 0 -0.2rem 0;
 }
+.main-content__form--checkbox p {
+  margin: 1rem 0 0 0 !important;
+}
 .main-content__form--legend {
   background-color: #f2f2f2;
   color: #1a1a1a;
@@ -85,11 +88,20 @@
   border-radius: 2%;
   outline: none;
 }
-.main-content__form--input > option {
-  background-color: #f2f2f2;
-  color: #1a1a1a;
-  text-align: center;
-  padding-top: 0.1rem;
+.main-content__form--radio {
+  width: 90%;
+  padding-left: 3rem;
+  margin-top: -1rem;
+  margin-bottom: 1rem;
+}
+
+.radio {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.radio__label {
+  padding-left: 0 !important;
 }
 
 .main-content__list {
@@ -337,6 +349,9 @@ body {
   .main-content__form--checkbox label {
     padding-left: 0.5rem;
   }
+  .main-content__form--checkbox p {
+    font-size: 1rem;
+  }
 }
 /* 1 -- 499 */
 @media screen and (min-width: 1px) and (max-width: 499px) {
@@ -393,7 +408,7 @@ body {
 
   .main-content__form--padding label {
     margin-top: 1.5rem;
-    padding-left: 3rem;
+    padding-left: 0.5rem;
     width: 90%;
     font-size: 0.9rem;
   }
@@ -462,6 +477,9 @@ body {
   }
   .main-content__form--checkbox label {
     padding-left: 0.5rem;
+  }
+  .main-content__form--checkbox p {
+    font-size: 1rem;
   }
 }
 /* 500 -- 575 */
@@ -534,7 +552,7 @@ body {
 
   .main-content__form--padding label {
     margin-top: 1.5rem;
-    padding-left: 4rem;
+    padding-left: 0.5rem;
     width: 90%;
     font-size: 0.9rem;
   }
@@ -572,6 +590,9 @@ body {
   }
   .main-content__form--checkbox label {
     padding-left: 0.5rem;
+  }
+  .main-content__form--checkbox p {
+    font-size: 1rem;
   }
 
   .main-content__contact--padding label {
@@ -665,7 +686,7 @@ body {
 
   .main-content__form--padding label {
     margin-top: 1.5rem;
-    padding-left: 4rem;
+    padding-left: 0.5rem;
     width: 90%;
     font-size: 1rem;
   }
@@ -703,6 +724,9 @@ body {
   }
   .main-content__form--checkbox label {
     padding-left: 0.5rem;
+  }
+  .main-content__form--checkbox p {
+    font-size: 1rem;
   }
 
   .main-content__contact--padding label {
@@ -850,7 +874,7 @@ body {
 
   .main-content__form--padding label {
     margin-top: 1.5rem;
-    padding-left: 3rem;
+    padding-left: 0.5rem;
     width: 90%;
     font-size: 1rem;
   }
@@ -969,7 +993,7 @@ body {
 
   .main-content__form--padding label {
     margin-top: 1rem;
-    padding-left: 3rem;
+    padding-left: 0.5rem;
     width: 90%;
   }
 
@@ -1026,6 +1050,9 @@ body {
   .main-content__form--checkbox label {
     font-size: 0.9rem;
     padding-left: 1rem;
+  }
+  .main-content__form--checkbox p {
+    font-size: 1rem;
   }
 }
 /* 1252 - 1379 */

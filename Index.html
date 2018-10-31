@@ -88,25 +88,66 @@
                     <input class="main-content__form--input" id="nom" type="text" name="Nom" required>
                     <label for="email">Email</label>
                     <input class="main-content__form--input" id="email" type="email" name="Adresse mail" required>
-                        <fieldset class="main-content__form--checkbox">
-                            <legend class="main-content__form--legend">Sélection des films</legend>
-                                <input type="checkbox" id="laHaine" name="films" value="La Haine">
-                                <label for="laHaine">La Haine</label>
-                                <input type="checkbox" id="odyssee" name="films" value="l'Odyssée de l'espace">
-                                <label for="odyssee">l'Odyssée de l'espace</label>
-                                <input type="checkbox" id="requiem" name="films" value="Requiem for a dream">
-                                <label for="requiem">Requiem for a dream</label>
-                                <input type="checkbox" id="mulholland" name="films" value="Mulholland Drive">
-                                <label for="mulholland">Mulholland Drive</label>
-                                <input type="checkbox" id="Carnage" name="films" value="Carnage">
-                                <label for="Carnage">Carnage</label>
-                                <input type="checkbox" id="under" name="films" value="Under the skin">
-                                <label for="under">Under the skin</label>
-                                <input type="checkbox" id="edward" name="films" value="Edward aux mains d'argent">
-                                <label for="edward">Edward aux mains d'argent</label>
-                                <input type="checkbox" id="lost" name="films" value="Lost in translation">
-                                <label for="lost">Lost in translation</label>
-                        </fieldset>
+
+                    <label for="">Combien de personnes viendront ?</label>
+                    <div class="main-content__form--radio row">
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 col-2 radio">
+                            <label class="radio__label" for="1">1
+                                <input type="radio" name="nombre" value="1">
+                            </label>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 col-2 radio">
+                            <label class="radio__label" for="2">2
+                                <input type="radio" name="nombre" value="2">
+                            </label>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 col-2 radio">
+                            <label class="radio__label" for="3">3
+                                <input type="radio" name="nombre" value="3">
+                            </label>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 col-2 radio">
+                            <label class="radio__label" for="4">4
+                                <input type="radio" name="nombre" value="4">
+                            </label>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 col-2 radio">
+                            <label class="radio__label" for="5">5
+                                <input type="radio" name="nombre" value="5">
+                            </label>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 col-2 radio">
+                            <label class="radio__label" for="6">6
+                                <input type="radio" name="nombre" value="6">
+                            </label>
+                        </div>
+                    </div>
+
+                    <fieldset class="main-content__form--checkbox">
+                        <legend class="main-content__form--legend">Sélection des films</legend>
+                           
+                            <p>Les séances débutant à 19h</p>
+                           
+                            <input type="checkbox" id="laHaine" name="films" value="La Haine">
+                            <label for="laHaine">La Haine (05/08)</label>
+                            <input type="checkbox" id="odyssee" name="films" value="l'Odyssée de l'espace">
+                            <label for="odyssee">l'Odyssée de l'espace (06/08)</label>
+                            <input type="checkbox" id="requiem" name="films" value="Requiem for a dream">
+                            <label for="requiem">Requiem for a dream (07/08)</label>
+                            <input type="checkbox" id="mulholland" name="films" value="Mulholland Drive">
+                            <label for="mulholland">Mulholland Drive (08/08)</label>
+                            
+                            <p>Les séances débutant à 21h</p>
+                            
+                            <input type="checkbox" id="Carnage" name="films" value="Carnage">
+                            <label for="Carnage">Carnage (05/08)</label>
+                            <input type="checkbox" id="under" name="films" value="Under the skin">
+                            <label for="under">Under the skin (06/08)</label>
+                            <input type="checkbox" id="edward" name="films" value="Edward aux mains d'argent">
+                            <label for="edward">Edward aux mains d'argent (07/08)</label>
+                            <input type="checkbox" id="lost" name="films" value="Lost in translation">
+                            <label for="lost">Lost in translation (08/08)</label>
+                    </fieldset>
 <!--
                     <label for="films">Sélection des films, maintenez la touche Ctrl enfoncée pour en sélectionner plusieurs</label>
                     <select class="main-content__form--input" name="films" id="films" size="4" multiple required>

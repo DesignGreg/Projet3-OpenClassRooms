@@ -33,6 +33,10 @@
         label {
             margin: 0 0 -0.2rem 0;
         }
+        
+        p {
+            margin: 1rem 0 0 0 !important;
+        }
     }
 
     &--legend {
@@ -91,12 +95,21 @@
         border: 1px solid $main-color;
         border-radius: 2%;
         outline: none;
-
-        > option {
-            background-color: $second-background-color;
-            color: $main-color;
-            text-align: center;
-            padding-top: 0.1rem;
-        }
     }
+    
+    &--radio {
+        width: 90%;
+        padding-left: 3rem;
+        margin-top: -1rem;
+        margin-bottom: 1rem;
+    }
+}
+
+.radio {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.radio__label {
+    padding-left: 0 !important;
 }
