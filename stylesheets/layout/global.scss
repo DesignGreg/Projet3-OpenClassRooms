@@ -13,6 +13,10 @@ body {
     
     &__home {
         margin: 1rem 0 1rem 0;
+        
+        &--padding {
+            height: 100% !important;
+        }
     }
     
     &__contact {
@@ -29,9 +33,17 @@ body {
 
     &__form {
         margin: 1rem 0 1rem 0;
+        
+        &--padding {
+            height: 100% !important;
+        }
     }
 
     &__list {
         margin: 1rem 0 1rem 0;
+        
+        &--padding {
+            height: 100% !important;
+        }
     }
 }
