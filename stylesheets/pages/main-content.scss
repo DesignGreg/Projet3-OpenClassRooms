@@ -15,16 +15,19 @@
         color: $main-color;
         display: inline-block;
         
-        &:not(:first-child) {
-            border-top: 1px solid $main-color;
-            padding-top: 1rem;
-        }
+    }
+    
+    &--border :last-child { 
+            border-bottom: 1px solid $main-color;
+            padding-bottom: 2rem;
+        
     }
     
     &--text {
     background-color: $second-background-color;
     color: $main-color;
     padding-top: 0.5rem;
+        
     }
     
     &--date {

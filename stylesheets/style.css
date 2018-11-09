@@ -1100,9 +1100,9 @@ body {
   color: #1a1a1a;
   display: inline-block;
 }
-.main-content__home--title:not(:first-child) {
-  border-top: 1px solid #1a1a1a;
-  padding-top: 1rem;
+.main-content__home--border :last-child {
+  border-bottom: 1px solid #1a1a1a;
+  padding-bottom: 2rem;
 }
 .main-content__home--text {
   background-color: #f2f2f2;
