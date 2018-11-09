@@ -13,6 +13,7 @@
     &--title {
         background-color: $second-background-color;
         color: $main-color;
+        display: inline-block;
         
         &:not(:first-child) {
             border-top: 1px solid $main-color;
@@ -24,6 +25,12 @@
     background-color: $second-background-color;
     color: $main-color;
     padding-top: 0.5rem;
+    }
+    
+    &--date {
+        display: inline;
+        padding-left: 1rem;
+        font-size: $standard-less-font;
     }
     
     &--image {

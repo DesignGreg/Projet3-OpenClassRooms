@@ -1098,6 +1098,7 @@ body {
 .main-content__home--title {
   background-color: #f2f2f2;
   color: #1a1a1a;
+  display: inline-block;
 }
 .main-content__home--title:not(:first-child) {
   border-top: 1px solid #1a1a1a;
@@ -1107,6 +1108,11 @@ body {
   background-color: #f2f2f2;
   color: #1a1a1a;
   padding-top: 0.5rem;
+}
+.main-content__home--date {
+  display: inline;
+  padding-left: 1rem;
+  font-size: 0.9rem;
 }
 .main-content__home--image {
   border-radius: 5%;
